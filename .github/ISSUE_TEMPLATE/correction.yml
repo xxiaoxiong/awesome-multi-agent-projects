@@ -1,0 +1,25 @@
+name: Correction
+description: Report inaccurate directory data, a moved repository, or a status change.
+title: "[Correction]: "
+labels: ["correction"]
+body:
+  - type: input
+    id: project
+    attributes: { label: Project, placeholder: Name or directory URL }
+    validations: { required: true }
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem type
+      options: [Incorrect link, Project migration, Category error, Description error, License change, Status change, Other]
+    validations: { required: true }
+  - type: input
+    id: incorrect_link
+    attributes: { label: Incorrect link, description: Include when applicable }
+  - type: input
+    id: migration
+    attributes: { label: Project migration, description: New primary repository when applicable }
+  - type: textarea
+    id: correction
+    attributes: { label: Suggested correction, description: Explain the correction and link to primary evidence }
+    validations: { required: true }

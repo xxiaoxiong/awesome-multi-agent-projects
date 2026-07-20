@@ -1,0 +1,19 @@
+---
+import data from "../generated/data.json";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const { lang = "en" } = Astro.props;
+const zh = lang === "zh";
+---
+<BaseLayout title={zh ? "关于｜Awesome Multi-Agent Projects" : "About — Awesome Multi-Agent Projects"} description={zh ? "了解本项目的范围、方法、分类和维护机制。" : "Learn about the scope, methodology, taxonomy, and maintenance model."} lang={lang} canonicalPath={zh ? "/zh/about" : "/about"} alternatePath={zh ? "/about" : "/zh/about"}>
+  <article class="container-page py-14">
+    <p class="text-sm font-semibold text-indigo-600">{zh ? "关于本项目" : "ABOUT THE PROJECT"}</p>
+    <h1 class="mt-2 text-4xl font-black">{zh ? "一个边界清晰的多智能体开源入口" : "A focused map of open multi-agent work"}</h1>
+    <div class="mt-8 max-w-4xl space-y-9">
+      <section><h2 class="text-2xl font-bold">{zh ? "目的" : "Purpose"}</h2><p class="prose-copy mt-3">{zh ? "本项目按实际应用领域组织全球开源多智能体框架、产品、研究实现和真实应用，并用同一结构化数据生成双语 README 与静态网站。" : "This project organizes open-source multi-agent frameworks, products, research implementations, and real-world applications by domain. One structured dataset generates both bilingual READMEs and the static site."}</p></section>
+      <section><h2 class="text-2xl font-bold">{zh ? "多智能体定义" : "Definition"}</h2><p class="prose-copy mt-3">{zh ? "收录项目需要有两个或更多具备独立角色、上下文、策略或职责的智能体，并存在明确的通信、委派、协作、竞争或结果汇总机制。" : "Included projects need two or more agents with independent roles, context, strategy, or responsibility, plus explicit communication, delegation, collaboration, competition, or result aggregation."}</p></section>
+      <section><h2 class="text-2xl font-bold">{zh ? "排除规则" : "Exclusions"}</h2><p class="prose-copy mt-3">{zh ? "单智能体工具、普通 RAG、只有多个步骤的工作流、普通 MCP Server、Fork、镜像、无代码论文和低质量演示不会进入主清单。" : "Single-agent tools, ordinary RAG, merely multi-step workflows, generic MCP servers, forks, mirrors, papers without code, and low-quality demos are excluded."}</p></section>
+      <section><h2 class="text-2xl font-bold">{zh ? "AI 辅助与人工审核" : "AI assistance and human review"}</h2><p class="prose-copy mt-3">{zh ? "每周工作流先抓取候选和元数据，再让 Codex 只分析本地不可信候选文件，生成变更 PR。自动化不会直接合并，最终由维护者审核。" : "The weekly workflow fetches candidates and metadata first, then asks Codex to analyze only local untrusted candidate files and open a pull request. Automation never merges its own changes; maintainers review them."}</p></section>
+      <section><h2 class="text-2xl font-bold">{zh ? "数据快照" : "Data snapshot"}</h2><p class="prose-copy mt-3">{data.site.last_updated} · {data.projects.length} {zh ? "个项目" : "projects"} · {data.categories.length} {zh ? "个分类" : "categories"}</p></section>
+    </div>
+  </article>
+</BaseLayout>

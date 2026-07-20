@@ -1,0 +1,15 @@
+---
+import data from "../generated/data.json";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectExplorer from "./ProjectExplorer.astro";
+const { lang = "en" } = Astro.props;
+const zh = lang === "zh";
+---
+<BaseLayout title={zh ? "浏览项目｜Awesome Multi-Agent Projects" : "Browse Projects — Awesome Multi-Agent Projects"} description={zh ? "搜索和筛选经过整理的开源多智能体项目。" : "Search and filter curated open-source multi-agent projects."} lang={lang} canonicalPath={zh ? "/zh/projects" : "/projects"} alternatePath={zh ? "/projects" : "/zh/projects"}>
+  <section class="container-page py-14">
+    <p class="text-sm font-semibold text-indigo-600">{zh ? "结构化目录" : "STRUCTURED DIRECTORY"}</p>
+    <h1 class="mt-2 text-4xl font-black">{zh ? "浏览多智能体项目" : "Browse multi-agent projects"}</h1>
+    <p class="prose-copy mt-4">{zh ? "按关键词、应用领域、项目类型、标签、语言、自托管能力和维护状态筛选。所有指标都是构建时静态快照。" : "Filter by keywords, domain, project type, tags, language, self-hosting, and maintenance status. Metrics are build-time snapshots."}</p>
+    <div class="mt-10"><ProjectExplorer projects={data.projects} categories={data.categories} lang={lang} /></div>
+  </section>
+</BaseLayout>

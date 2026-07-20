@@ -1,0 +1,18 @@
+---
+import data from "../generated/data.json";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectCard from "./ProjectCard.astro";
+const { category, lang = "en" } = Astro.props;
+const zh = lang === "zh";
+const projects = data.projects.filter((project) => project.primary_category === category.id);
+const tags = [...new Set(projects.flatMap((project) => project.tags))].sort();
+---
+<BaseLayout title={`${zh ? category.name_zh : category.name_en} — Awesome Multi-Agent Projects`} description={zh ? category.description_zh : category.description_en} lang={lang} canonicalPath={`${zh ? "/zh" : ""}/categories/${category.id}`} alternatePath={`${zh ? "" : "/zh"}/categories/${category.id}`}>
+  <section class="container-page py-14">
+    <p class="text-sm font-semibold uppercase text-indigo-600">{category.group}</p>
+    <h1 class="mt-2 text-4xl font-black">{zh ? category.name_zh : category.name_en}</h1>
+    <p class="prose-copy mt-5">{zh ? category.description_zh : category.description_en}</p>
+    <div class="mt-6 flex flex-wrap gap-2"><span class="badge">{projects.length} {zh ? "个项目" : "projects"}</span>{tags.slice(0, 12).map((tag) => <span class="badge">{tag}</span>)}</div>
+    <div class="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-3">{projects.map((project) => <ProjectCard project={project} category={category} lang={lang} />)}</div>
+  </section>
+</BaseLayout>

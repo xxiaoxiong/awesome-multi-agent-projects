@@ -1,0 +1,64 @@
+---
+import { ArrowRight, Github, Sparkles } from "lucide-astro";
+import data from "../generated/data.json";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProjectCard from "./ProjectCard.astro";
+const { lang = "en" } = Astro.props;
+const zh = lang === "zh";
+const { projects, categories, site, featured } = data;
+const categoryById = new Map(categories.map((category) => [category.id, category]));
+const featuredProjects = featured.map((id) => projects.find((project) => project.id === id)).filter((project): project is NonNullable<typeof project> => Boolean(project)).slice(0, 6);
+const latest = [...projects].sort((a, b) => String(b.added_at).localeCompare(String(a.added_at))).slice(0, 6);
+const covered = categories.filter((category) => projects.some((project) => project.primary_category === category.id));
+const title = zh ? "Awesome Multi-Agent Projects｜多智能体开源项目目录" : "Awesome Multi-Agent Projects — Open-Source Multi-Agent Directory";
+const description = zh ? site.subtitle_zh : site.subtitle_en;
+---
+<BaseLayout title={title} description={description} lang={lang} canonicalPath={zh ? "/zh/" : "/"} alternatePath={zh ? "/" : "/zh/"}>
+  <section class="relative overflow-hidden border-b border-slate-200 dark:border-slate-800">
+    <div class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_30%_20%,rgba(79,70,229,.13),transparent_35%),radial-gradient(circle_at_80%_40%,rgba(124,58,237,.10),transparent_35%)]"></div>
+    <div class="container-page py-20 text-center sm:py-28">
+      <span class="badge mb-6"><Sparkles size={14} class="mr-1.5" />{projects.length} {zh ? "个精选开源项目" : "curated open-source projects"}</span>
+      <h1 class="mx-auto max-w-5xl text-4xl font-black tracking-tight sm:text-6xl">Awesome Multi-Agent Projects</h1>
+      <p class="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-600 sm:text-xl dark:text-slate-300">{zh ? "从实际应用领域出发，发现多智能体正在真正构建什么。" : "Discover open-source multi-agent systems by what they actually build."}</p>
+      <p class="mx-auto mt-3 max-w-3xl text-sm leading-6 text-slate-500 sm:text-base">{description}</p>
+      <div class="mt-8 flex flex-wrap justify-center gap-3">
+        <a class="button-primary gap-2" href={zh ? "/zh/projects" : "/projects"}>{zh ? "探索项目" : "Explore projects"}<ArrowRight size={17} /></a>
+        <a class="button-secondary gap-2" href="https://github.com/xxiaoxiong/awesome-multi-agent-projects"><Github size={17} />GitHub</a>
+      </div>
+      <dl class="mx-auto mt-12 grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4">
+        <div class="card"><dt class="text-xs uppercase text-slate-500">{zh ? "项目" : "Projects"}</dt><dd class="mt-1 text-2xl font-bold">{projects.length}</dd></div>
+        <div class="card"><dt class="text-xs uppercase text-slate-500">{zh ? "已覆盖分类" : "Categories"}</dt><dd class="mt-1 text-2xl font-bold">{covered.length}</dd></div>
+        <div class="card"><dt class="text-xs uppercase text-slate-500">{zh ? "最近更新" : "Updated"}</dt><dd class="mt-1 text-base font-bold">{site.last_updated}</dd></div>
+        <div class="card"><dt class="text-xs uppercase text-slate-500">{zh ? "本期新增" : "New this release"}</dt><dd class="mt-1 text-2xl font-bold">{projects.length}</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="container-page py-16">
+    <div class="mb-8 flex items-end justify-between gap-4"><div><p class="text-sm font-semibold text-indigo-600">{zh ? "领域优先" : "DOMAIN FIRST"}</p><h2 class="mt-2 text-3xl font-bold">{zh ? "按实际用途探索" : "Explore by what agents build"}</h2></div><a class="text-sm font-semibold text-indigo-600" href={zh ? "/zh/projects" : "/projects"}>{zh ? "全部项目 →" : "All projects →"}</a></div>
+    <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      {covered.map((category) => {
+        const count = projects.filter((project) => project.primary_category === category.id).length;
+        return <a class="card block" href={`${zh ? "/zh" : ""}/categories/${category.id}`}><div class="flex items-center justify-between"><h3 class="font-bold">{zh ? category.name_zh : category.name_en}</h3><span class="badge">{count}</span></div><p class="mt-3 text-sm leading-6 text-slate-500">{zh ? category.description_zh : category.description_en}</p></a>;
+      })}
+    </div>
+  </section>
+
+  <section class="container-page py-8">
+    <h2 class="mb-8 text-3xl font-bold">{zh ? "精选项目" : "Featured projects"}</h2>
+    <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">{featuredProjects.map((project) => <ProjectCard project={project} category={categoryById.get(project.primary_category)} lang={lang} />)}</div>
+  </section>
+
+  <section class="container-page py-16">
+    <h2 class="mb-8 text-3xl font-bold">{zh ? "最近收录" : "Latest additions"}</h2>
+    <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">{latest.map((project) => <ProjectCard project={project} category={categoryById.get(project.primary_category)} lang={lang} />)}</div>
+  </section>
+
+  <section class="container-page">
+    <div class="rounded-3xl bg-indigo-600 px-6 py-12 text-center text-white sm:px-12">
+      <h2 class="text-3xl font-bold">{zh ? "发现了值得收录的项目？" : "Know a project that belongs here?"}</h2>
+      <p class="mx-auto mt-3 max-w-2xl text-indigo-100">{zh ? "请通过结构化 Issue 提交，我们会按照统一边界、分类和双语质量标准审核。" : "Submit it through the structured issue form. Every candidate is reviewed against the same scope, taxonomy, and bilingual quality rules."}</p>
+      <a class="mt-6 inline-flex rounded-xl bg-white px-5 py-3 font-semibold text-indigo-700" href="https://github.com/xxiaoxiong/awesome-multi-agent-projects/issues/new?template=project-submission.yml">{zh ? "提交项目" : "Submit a project"}</a>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,95 @@
+name: Weekly multi-agent ecosystem update
+
+on:
+  schedule:
+    - cron: "17 2 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: weekly-multi-agent-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.actor != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.7.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Discover untrusted candidates before Codex
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: pnpm discover
+      - name: Synchronize static GitHub metadata before Codex
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: pnpm sync:metadata
+      - name: Run trusted weekly Codex review
+        id: codex
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          prompt-file: prompts/weekly-update.md
+          sandbox: workspace-write
+          safety-strategy: drop-sudo
+          output-file: codex-weekly-output.md
+      - name: Validate Codex changes
+        run: |
+          pnpm validate
+          pnpm render
+          pnpm render:check
+          pnpm typecheck
+          pnpm lint
+          pnpm test
+          pnpm build:site
+          pnpm check:links
+      - name: Detect meaningful changes
+        id: changes
+        run: |
+          rm -f codex-weekly-output.md
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit dated branch
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DATE="$(date -u +%F)"
+          BRANCH="automation/weekly-update-${DATE}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git add data README.md README.zh-CN.md site/src/generated updates
+          git commit -m "chore: weekly multi-agent ecosystem update (${DATE})"
+          git push --force-with-lease --set-upstream origin "$BRANCH"
+          if ! gh pr list --head "$BRANCH" --state open --json number --jq 'length > 0' | grep -q true; then
+            {
+              echo "## Weekly ecosystem update"
+              echo
+              echo "- Candidate discovery and metadata sync completed"
+              echo "- Codex reviewed local untrusted candidate data"
+              echo "- Data validation, README consistency, type-check, lint, tests, static build, and link checks passed"
+              echo
+              echo "See updates/${DATE}.md for additions, updates, status or category changes, and exclusions."
+            } > /tmp/pr-body.md
+            gh pr create --base main --head "$BRANCH" --title "chore: weekly multi-agent ecosystem update (${DATE})" --body-file /tmp/pr-body.md
+          fi

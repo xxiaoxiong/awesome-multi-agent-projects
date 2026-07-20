@@ -1,0 +1,63 @@
+---
+import ProjectCard from "./ProjectCard.astro";
+const { lang = "en" } = Astro.props;
+const projects = Astro.props.projects as any[];
+const categories = Astro.props.categories as any[];
+const zh = lang === "zh";
+const categoryById = new Map(categories.map((category) => [category.id, category]));
+const languages = [...new Set<string>(projects.map((project) => project.primary_language).filter(Boolean))].sort();
+const tags = [...new Set<string>(projects.flatMap((project) => project.tags))].sort();
+const types = [...new Set<string>(projects.map((project) => project.project_type))].sort();
+---
+<section>
+  <div class="mb-8 grid gap-3 rounded-2xl border border-slate-200 bg-white p-4 md:grid-cols-4 dark:border-slate-800 dark:bg-slate-900">
+    <label class="md:col-span-2"><span class="sr-only">{zh ? "搜索" : "Search"}</span><input id="search" type="search" placeholder={zh ? "搜索名称、介绍或标签…" : "Search names, descriptions, or tags…"} class="w-full rounded-xl border border-slate-300 bg-transparent px-4 py-2.5 outline-none focus:border-indigo-500 dark:border-slate-700" /></label>
+    <select id="group" class="rounded-xl border border-slate-300 bg-transparent px-3 py-2.5 dark:border-slate-700"><option value="">{zh ? "全部分组" : "All groups"}</option><option>Applications</option><option>Foundations</option></select>
+    <select id="category" class="rounded-xl border border-slate-300 bg-transparent px-3 py-2.5 dark:border-slate-700"><option value="">{zh ? "全部分类" : "All categories"}</option>{categories.map((c) => <option value={c.id}>{zh ? c.name_zh : c.name_en}</option>)}</select>
+    <select id="type" class="rounded-xl border border-slate-300 bg-transparent px-3 py-2.5 dark:border-slate-700"><option value="">{zh ? "全部类型" : "All types"}</option>{types.map((value) => <option value={value}>{value}</option>)}</select>
+    <select id="tag" class="rounded-xl border border-slate-300 bg-transparent px-3 py-2.5 dark:border-slate-700"><option value="">{zh ? "全部标签" : "All tags"}</option>{tags.map((value) => <option value={value}>{value}</option>)}</select>
+    <select id="language" class="rounded-xl border border-slate-300 bg-transparent px-3 py-2.5 dark:border-slate-700"><option value="">{zh ? "全部语言" : "All languages"}</option>{languages.map((value) => <option value={value}>{value}</option>)}</select>
+    <select id="status" class="rounded-xl border border-slate-300 bg-transparent px-3 py-2.5 dark:border-slate-700"><option value="">{zh ? "全部状态" : "All status"}</option><option>active</option><option>experimental</option><option>inactive</option><option>archived</option></select>
+    <select id="self-hosted" class="rounded-xl border border-slate-300 bg-transparent px-3 py-2.5 dark:border-slate-700"><option value="">{zh ? "托管方式" : "Hosting"}</option><option value="true">{zh ? "可自托管" : "Self-hosted"}</option></select>
+    <select id="sort" class="rounded-xl border border-slate-300 bg-transparent px-3 py-2.5 dark:border-slate-700"><option value="added">{zh ? "最近加入" : "Recently added"}</option><option value="name">{zh ? "名称" : "Name"}</option><option value="stars">Stars</option></select>
+    <button id="clear" class="button-secondary">{zh ? "清空筛选" : "Clear filters"}</button>
+  </div>
+  <div class="mb-4"><p id="result-count" class="text-sm text-slate-500"></p></div>
+  <div id="project-grid" class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+    {projects.map((project: any) => <ProjectCard project={project} category={categoryById.get(project.primary_category)} lang={lang} />)}
+  </div>
+  <div id="empty-state" class="hidden rounded-2xl border border-dashed border-slate-300 p-12 text-center text-slate-500 dark:border-slate-700">{zh ? "没有找到符合条件的项目，请调整筛选。" : "No projects match these filters. Try a broader search."}</div>
+</section>
+<script>
+  import Fuse from "fuse.js";
+  const cards = Array.from(document.querySelectorAll<HTMLElement>(".project-card"));
+  const grid = document.querySelector<HTMLElement>("#project-grid");
+  const empty = document.querySelector<HTMLElement>("#empty-state");
+  const count = document.querySelector<HTMLElement>("#result-count");
+  const controls = ["search", "group", "category", "type", "tag", "language", "status", "self-hosted", "sort"].map((id) => document.getElementById(id) as HTMLInputElement | HTMLSelectElement);
+  const fuse = new Fuse(cards.map((card) => ({ card, text: card.dataset.search ?? "" })), { keys: ["text"], threshold: 0.34 });
+  function apply() {
+    const value = (id: string) => (document.getElementById(id) as HTMLInputElement | HTMLSelectElement).value;
+    const query = value("search").trim();
+    const searchSet = query ? new Set(fuse.search(query).map((result) => result.item.card)) : new Set(cards);
+    const visible = cards.filter((card) =>
+      searchSet.has(card) &&
+      (!value("group") || card.dataset.group === value("group")) &&
+      (!value("category") || card.dataset.category === value("category")) &&
+      (!value("type") || card.dataset.type === value("type")) &&
+      (!value("tag") || (card.dataset.tags ?? "").split(",").includes(value("tag"))) &&
+      (!value("language") || card.dataset.language === value("language")) &&
+      (!value("status") || card.dataset.status === value("status")) &&
+      (!value("self-hosted") || card.dataset.selfHosted === value("self-hosted"))
+    );
+    visible.sort((a, b) => value("sort") === "name" ? (a.dataset.name ?? "").localeCompare(b.dataset.name ?? "") : value("sort") === "stars" ? Number(b.dataset.stars) - Number(a.dataset.stars) : (b.dataset.added ?? "").localeCompare(a.dataset.added ?? ""));
+    cards.forEach((card) => card.hidden = true);
+    visible.forEach((card) => { card.hidden = false; grid?.appendChild(card); });
+    if (count) count.textContent = `${visible.length} ${document.documentElement.lang.startsWith("zh") ? "个项目" : visible.length === 1 ? "project" : "projects"}`;
+    empty?.classList.toggle("hidden", visible.length > 0);
+    grid?.classList.toggle("hidden", visible.length === 0);
+  }
+  controls.forEach((control) => control?.addEventListener(control.id === "search" ? "input" : "change", apply));
+  document.getElementById("clear")?.addEventListener("click", () => { controls.forEach((control) => control.value = control.id === "sort" ? "added" : ""); apply(); });
+  apply();
+</script>

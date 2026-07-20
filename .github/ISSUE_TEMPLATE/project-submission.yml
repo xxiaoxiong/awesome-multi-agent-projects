@@ -1,0 +1,57 @@
+name: Project submission
+description: Propose an open-source project whose core capability is multi-agent collaboration.
+title: "[Project]: "
+labels: ["project-submission"]
+body:
+  - type: input
+    id: name
+    attributes: { label: Project name, placeholder: Official project name }
+    validations: { required: true }
+  - type: input
+    id: repository
+    attributes: { label: Repository URL, placeholder: "https://github.com/owner/repository" }
+    validations: { required: true }
+  - type: input
+    id: homepage
+    attributes: { label: Homepage, description: Optional official website }
+  - type: input
+    id: license
+    attributes: { label: License, placeholder: SPDX identifier or license name }
+    validations: { required: true }
+  - type: input
+    id: category
+    attributes: { label: Suggested category, description: Choose one category from TAXONOMY.md }
+    validations: { required: true }
+  - type: dropdown
+    id: type
+    attributes:
+      label: Project type
+      options: [framework, application, product, platform, infrastructure, research, benchmark]
+    validations: { required: true }
+  - type: textarea
+    id: mechanism
+    attributes: { label: How is multi-agent collaboration a core capability?, description: Identify the agents and their communication, delegation, collaboration, competition, or aggregation mechanism. }
+    validations: { required: true }
+  - type: textarea
+    id: description_en
+    attributes: { label: English description, description: Neutral 18–45 word description }
+    validations: { required: true }
+  - type: textarea
+    id: description_zh
+    attributes: { label: Chinese description, description: Optional natural simplified-Chinese description }
+  - type: dropdown
+    id: maintainer
+    attributes:
+      label: Are you a maintainer?
+      options: ["Yes", "No"]
+    validations: { required: true }
+  - type: textarea
+    id: context
+    attributes: { label: Additional context, description: Architecture links, papers, release notes, or evidence }
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is the primary repository, not a fork, mirror, course copy, or closed product.
+          required: true

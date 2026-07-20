@@ -1,0 +1,10 @@
+import { mkdir, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { loadData, ROOT } from "./lib/data.js";
+const { projects, categories, site } = await loadData();
+const date = new Date().toISOString().slice(0, 10);
+const counts = categories.map((category) => `- ${category.name_en}: ${projects.filter((project) => project.primary_category === category.id).length}`);
+const report = `# Ecosystem Update — ${date}\n\nData snapshot: ${site.last_updated}\n\n## Summary\n\n- Total projects: ${projects.length}\n- Covered categories: ${new Set(projects.map((project) => project.primary_category)).size}\n\n## Category counts\n\n${counts.join("\n")}\n\n## Review notes\n\nExternal candidate text was treated as untrusted input. No candidate code or commands were executed.\n`;
+await mkdir(path.join(ROOT, "updates"), { recursive: true });
+await writeFile(path.join(ROOT, "updates", `${date}.md`), report);
+console.log(`Generated updates/${date}.md`);

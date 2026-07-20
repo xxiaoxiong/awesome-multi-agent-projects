@@ -1,0 +1,1447 @@
+{
+  "generated_at": "2026-07-20T00:00:00Z",
+  "method": "GitHub repository search across ten multi-agent and domain queries; candidates require human review before inclusion",
+  "count": 240,
+  "candidates": [
+    {
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "open-multi-agent/open-multi-agent",
+      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "aden-hive/hive",
+      "url": "https://github.com/aden-hive/hive",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "Yeachan-Heo/oh-my-claudecode",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "gastownhall/gastown",
+      "url": "https://github.com/gastownhall/gastown",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "johnson7788/MultiAgentPPT",
+      "url": "https://github.com/johnson7788/MultiAgentPPT",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "VRSEN/agency-swarm",
+      "url": "https://github.com/VRSEN/agency-swarm",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "yohey-w/multi-agent-shogun",
+      "url": "https://github.com/yohey-w/multi-agent-shogun",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "FoundationAgents/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "openai/multi-agent-emergence-environments",
+      "url": "https://github.com/openai/multi-agent-emergence-environments",
+      "source_query": "multi-agent",
+      "archived": true
+    },
+    {
+      "full_name": "OpenBMB/ChatDev",
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "atb033/multi_agent_path_planning",
+      "url": "https://github.com/atb033/multi_agent_path_planning",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "SciSharp/BotSharp",
+      "url": "https://github.com/SciSharp/BotSharp",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "matsim-org/matsim-libs",
+      "url": "https://github.com/matsim-org/matsim-libs",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator",
+      "url": "https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "openai/openai-agents-js",
+      "url": "https://github.com/openai/openai-agents-js",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "NirDiamant/GenAI_Agents",
+      "url": "https://github.com/NirDiamant/GenAI_Agents",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "datawhalechina/hugging-multi-agent",
+      "url": "https://github.com/datawhalechina/hugging-multi-agent",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "fastclaw-ai/fastclaw",
+      "url": "https://github.com/fastclaw-ai/fastclaw",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "disler/claude-code-hooks-multi-agent-observability",
+      "url": "https://github.com/disler/claude-code-hooks-multi-agent-observability",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "viktoriasemaan/multi-agent",
+      "url": "https://github.com/viktoriasemaan/multi-agent",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "langroid/langroid",
+      "url": "https://github.com/langroid/langroid",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "Danau5tin/multi-agent-coding-system",
+      "url": "https://github.com/Danau5tin/multi-agent-coding-system",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "souvikmajumder26/Multi-Agent-Medical-Assistant",
+      "url": "https://github.com/souvikmajumder26/Multi-Agent-Medical-Assistant",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "LantaoYu/MARL-Papers",
+      "url": "https://github.com/LantaoYu/MARL-Papers",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "kyegomez/awesome-multi-agent-papers",
+      "url": "https://github.com/kyegomez/awesome-multi-agent-papers",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
+      "url": "https://github.com/MARKTECHPOST-AI-MEDIA-INC/AI-Agents-Projects-Tutorials",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "oxwhirl/pymarl",
+      "url": "https://github.com/oxwhirl/pymarl",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "ValueCell-ai/valuecell",
+      "url": "https://github.com/ValueCell-ai/valuecell",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "agentuniverse-ai/agentUniverse",
+      "url": "https://github.com/agentuniverse-ai/agentUniverse",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "the-ai-merge/multimodal-agents-course",
+      "url": "https://github.com/the-ai-merge/multimodal-agents-course",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "openai/multiagent-particle-envs",
+      "url": "https://github.com/openai/multiagent-particle-envs",
+      "source_query": "multi-agent",
+      "archived": true
+    },
+    {
+      "full_name": "taichengguo/LLM_MultiAgents_Survey_Papers",
+      "url": "https://github.com/taichengguo/LLM_MultiAgents_Survey_Papers",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "openai/swarm",
+      "url": "https://github.com/openai/swarm",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "abhi1693/openclaw-mission-control",
+      "url": "https://github.com/abhi1693/openclaw-mission-control",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "langchain-ai/langgraph-swarm-py",
+      "url": "https://github.com/langchain-ai/langgraph-swarm-py",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "disler/multi-agent-postgres-data-analytics",
+      "url": "https://github.com/disler/multi-agent-postgres-data-analytics",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "elder-plinius/T3MP3ST",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "sentient-agi/ROMA",
+      "url": "https://github.com/sentient-agi/ROMA",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "microsoft/agent-framework",
+      "url": "https://github.com/microsoft/agent-framework",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "arc53/DocsGPT",
+      "url": "https://github.com/arc53/DocsGPT",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "Kocoro-lab/Shannon",
+      "url": "https://github.com/Kocoro-lab/Shannon",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "PKU-MARL/Multi-Agent-Transformer",
+      "url": "https://github.com/PKU-MARL/Multi-Agent-Transformer",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "github/copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "datawhalechina/handy-multi-agent",
+      "url": "https://github.com/datawhalechina/handy-multi-agent",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "oxwhirl/smac",
+      "url": "https://github.com/oxwhirl/smac",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "proroklab/VectorizedMultiAgentSimulator",
+      "url": "https://github.com/proroklab/VectorizedMultiAgentSimulator",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "source_query": "multi-agent",
+      "archived": false
+    },
+    {
+      "full_name": "victordibia/designing-multiagent-systems",
+      "url": "https://github.com/victordibia/designing-multiagent-systems",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "FareedKhan-dev/Multi-Agent-AI-System",
+      "url": "https://github.com/FareedKhan-dev/Multi-Agent-AI-System",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "SolaceLabs/solace-agent-mesh",
+      "url": "https://github.com/SolaceLabs/solace-agent-mesh",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "bcefghj/multi-agent-ecommerce-system",
+      "url": "https://github.com/bcefghj/multi-agent-ecommerce-system",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "Denis2054/Context-Engineering-for-Multi-Agent-Systems",
+      "url": "https://github.com/Denis2054/Context-Engineering-for-Multi-Agent-Systems",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "whoenig/libMultiRobotPlanning",
+      "url": "https://github.com/whoenig/libMultiRobotPlanning",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "ZHangZHengEric/Sage",
+      "url": "https://github.com/ZHangZHengEric/Sage",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "RecursiveMAS/RecursiveMAS",
+      "url": "https://github.com/RecursiveMAS/RecursiveMAS",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "jmiao24/Paper2Agent",
+      "url": "https://github.com/jmiao24/Paper2Agent",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "getclawe/clawe",
+      "url": "https://github.com/getclawe/clawe",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "nicoladisabato/MultiAgenticRAG",
+      "url": "https://github.com/nicoladisabato/MultiAgenticRAG",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "cft0808/edict",
+      "url": "https://github.com/cft0808/edict",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "FareedKhan-dev/multi-agent-trading-system",
+      "url": "https://github.com/FareedKhan-dev/multi-agent-trading-system",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "saigontechnology/AgentCrew",
+      "url": "https://github.com/saigontechnology/AgentCrew",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "Gen-Verse/LatentMAS",
+      "url": "https://github.com/Gen-Verse/LatentMAS",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "merdandt/SalesShortcut",
+      "url": "https://github.com/merdandt/SalesShortcut",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "raga-ai-hub/RagaAI-Catalyst",
+      "url": "https://github.com/raga-ai-hub/RagaAI-Catalyst",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "microsoft/multi-agent-reference-architecture",
+      "url": "https://github.com/microsoft/multi-agent-reference-architecture",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "liza-mas/liza",
+      "url": "https://github.com/liza-mas/liza",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "sandeepmb/freecodecamp-multi-agent-ai-system",
+      "url": "https://github.com/sandeepmb/freecodecamp-multi-agent-ai-system",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "AstroPilot-AI/Denario",
+      "url": "https://github.com/AstroPilot-AI/Denario",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "ksm26/Multi-AI-Agent-Systems-with-crewAI",
+      "url": "https://github.com/ksm26/Multi-AI-Agent-Systems-with-crewAI",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "FinStep-AI/ContestTrade",
+      "url": "https://github.com/FinStep-AI/ContestTrade",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "Future-House/robin",
+      "url": "https://github.com/Future-House/robin",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "PacktPublishing/Agentic-Architectural-Patterns-for-Building-Multi-Agent-Systems",
+      "url": "https://github.com/PacktPublishing/Agentic-Architectural-Patterns-for-Building-Multi-Agent-Systems",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "WenyuChiou/awesome-agentic-ai-zh",
+      "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "akj2018/Multi-AI-Agent-Systems-with-crewAI",
+      "url": "https://github.com/akj2018/Multi-AI-Agent-Systems-with-crewAI",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "langtalks/swe-agent",
+      "url": "https://github.com/langtalks/swe-agent",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "martaldsantos/agentic-ai-hack",
+      "url": "https://github.com/martaldsantos/agentic-ai-hack",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "alphaiterations/multi-agent-system",
+      "url": "https://github.com/alphaiterations/multi-agent-system",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "cts198859/deeprl_network",
+      "url": "https://github.com/cts198859/deeprl_network",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "AIAnytime/Multi-Agents-System-from-Scratch",
+      "url": "https://github.com/AIAnytime/Multi-Agents-System-from-Scratch",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "bcefghj/medical-multi-agent-system",
+      "url": "https://github.com/bcefghj/medical-multi-agent-system",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "repowise-dev/claude-code-prompts",
+      "url": "https://github.com/repowise-dev/claude-code-prompts",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "microsoft/semanticworkbench",
+      "url": "https://github.com/microsoft/semanticworkbench",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "Prompthon-IO/agent-systems-handbook",
+      "url": "https://github.com/Prompthon-IO/agent-systems-handbook",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "dimensionalOS/dimos",
+      "url": "https://github.com/dimensionalOS/dimos",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "prl-mushr/mushr",
+      "url": "https://github.com/prl-mushr/mushr",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "lucas-flatwhite/claude-code-system-prompts",
+      "url": "https://github.com/lucas-flatwhite/claude-code-system-prompts",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "ZJU-LLMs/Agent-Kernel",
+      "url": "https://github.com/ZJU-LLMs/Agent-Kernel",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "SkyworkAI/DeepResearchAgent",
+      "url": "https://github.com/SkyworkAI/DeepResearchAgent",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "boshu2/agentops",
+      "url": "https://github.com/boshu2/agentops",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "RelevanceAI/relevanceai",
+      "url": "https://github.com/RelevanceAI/relevanceai",
+      "source_query": "multi agent system",
+      "archived": false
+    },
+    {
+      "full_name": "RunMaestro/Maestro",
+      "url": "https://github.com/RunMaestro/Maestro",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "21st-dev/1code",
+      "url": "https://github.com/21st-dev/1code",
+      "source_query": "agent orchestration",
+      "archived": true
+    },
+    {
+      "full_name": "kyegomez/swarms",
+      "url": "https://github.com/kyegomez/swarms",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "getpaseo/paseo",
+      "url": "https://github.com/getpaseo/paseo",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "stellarlinkco/myclaude",
+      "url": "https://github.com/stellarlinkco/myclaude",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "hatchet-dev/hatchet",
+      "url": "https://github.com/hatchet-dev/hatchet",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "gastownhall/gascity",
+      "url": "https://github.com/gastownhall/gascity",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "vijaythecoder/awesome-claude-agents",
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "GammaLabTechnologies/harmonist",
+      "url": "https://github.com/GammaLabTechnologies/harmonist",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "rivet-dev/agentos",
+      "url": "https://github.com/rivet-dev/agentos",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "crewAIInc/crewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "andyrewlee/awesome-agent-orchestrators",
+      "url": "https://github.com/andyrewlee/awesome-agent-orchestrators",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "humanlayer/12-factor-agents",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "mattpocock/sandcastle",
+      "url": "https://github.com/mattpocock/sandcastle",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "berabuddies/agentflow",
+      "url": "https://github.com/berabuddies/agentflow",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "wshobson/agents",
+      "url": "https://github.com/wshobson/agents",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "ynulihao/AgentSkillOS",
+      "url": "https://github.com/ynulihao/AgentSkillOS",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "patoles/agent-flow",
+      "url": "https://github.com/patoles/agent-flow",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "microsoft/agentic-factory-hack",
+      "url": "https://github.com/microsoft/agentic-factory-hack",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "clearml/clearml-agent",
+      "url": "https://github.com/clearml/clearml-agent",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "run-llama/multi-agent-concierge",
+      "url": "https://github.com/run-llama/multi-agent-concierge",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "yzhao062/pyod",
+      "url": "https://github.com/yzhao062/pyod",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "mikeyobrien/ralph-orchestrator",
+      "url": "https://github.com/mikeyobrien/ralph-orchestrator",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "dapr/dapr-agents",
+      "url": "https://github.com/dapr/dapr-agents",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "simstudioai/sim",
+      "url": "https://github.com/simstudioai/sim",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "golutra/golutra",
+      "url": "https://github.com/golutra/golutra",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "AgentWrapper/agent-orchestrator",
+      "url": "https://github.com/AgentWrapper/agent-orchestrator",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "stagewise-io/stagewise",
+      "url": "https://github.com/stagewise-io/stagewise",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "jayminwest/overstory",
+      "url": "https://github.com/jayminwest/overstory",
+      "source_query": "agent orchestration",
+      "archived": true
+    },
+    {
+      "full_name": "NickTikhonov/shuo",
+      "url": "https://github.com/NickTikhonov/shuo",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "framerslab/agentos",
+      "url": "https://github.com/framerslab/agentos",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "getkimchi/kimchi",
+      "url": "https://github.com/getkimchi/kimchi",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "katanemo/plano",
+      "url": "https://github.com/katanemo/plano",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "ai-boost/awesome-harness-engineering",
+      "url": "https://github.com/ai-boost/awesome-harness-engineering",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "labring/FastGPT",
+      "url": "https://github.com/labring/FastGPT",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "xiaotianfotos/homerail",
+      "url": "https://github.com/xiaotianfotos/homerail",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "dynamiq-ai/dynamiq",
+      "url": "https://github.com/dynamiq-ai/dynamiq",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "ValueCell-ai/ClawX",
+      "url": "https://github.com/ValueCell-ai/ClawX",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "salesforce/agentscript",
+      "url": "https://github.com/salesforce/agentscript",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "code-yeongyu/oh-my-openagent",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "win4r/team-tasks",
+      "url": "https://github.com/win4r/team-tasks",
+      "source_query": "agent orchestration",
+      "archived": false
+    },
+    {
+      "full_name": "daveshap/OpenAI_Agent_Swarm",
+      "url": "https://github.com/daveshap/OpenAI_Agent_Swarm",
+      "source_query": "agent swarm",
+      "archived": true
+    },
+    {
+      "full_name": "portainer/agent",
+      "url": "https://github.com/portainer/agent",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "HKUDS/ClawTeam",
+      "url": "https://github.com/HKUDS/ClawTeam",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "ZJU-FAST-Lab/ego-planner-swarm",
+      "url": "https://github.com/ZJU-FAST-Lab/ego-planner-swarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "swarmclawai/swarmclaw",
+      "url": "https://github.com/swarmclawai/swarmclaw",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "desplega-ai/agent-swarm",
+      "url": "https://github.com/desplega-ai/agent-swarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "unclebob/swarm-forge",
+      "url": "https://github.com/unclebob/swarm-forge",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "JayZeeDesign/research-agents-3.0",
+      "url": "https://github.com/JayZeeDesign/research-agents-3.0",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "elizaOS/eliza",
+      "url": "https://github.com/elizaOS/eliza",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "Armur-Ai/Pentest-Swarm-AI",
+      "url": "https://github.com/Armur-Ai/Pentest-Swarm-AI",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "joelhooks/swarm-tools",
+      "url": "https://github.com/joelhooks/swarm-tools",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "chmod777john/swarm-ide",
+      "url": "https://github.com/chmod777john/swarm-ide",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "christopherkarani/Swarm",
+      "url": "https://github.com/christopherkarani/Swarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "swarmzero/swarmzero",
+      "url": "https://github.com/swarmzero/swarmzero",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "affaan-m/claude-swarm",
+      "url": "https://github.com/affaan-m/claude-swarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "pdichone/swarm-writer-agents",
+      "url": "https://github.com/pdichone/swarm-writer-agents",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "YaoZ720/SwarmAgenticCode",
+      "url": "https://github.com/YaoZ720/SwarmAgenticCode",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "win4r/ClawTeam-OpenClaw",
+      "url": "https://github.com/win4r/ClawTeam-OpenClaw",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "openswarm-ai/openswarm",
+      "url": "https://github.com/openswarm-ai/openswarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "prathyushnallamothu/swarmgo",
+      "url": "https://github.com/prathyushnallamothu/swarmgo",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "1Panel-dev/ClawSwarm",
+      "url": "https://github.com/1Panel-dev/ClawSwarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "All-About-AI-YouTube/swarm_agents",
+      "url": "https://github.com/All-About-AI-YouTube/swarm_agents",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "The-Swarm-Corporation/swarms-rs",
+      "url": "https://github.com/The-Swarm-Corporation/swarms-rs",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "swarmclawai/swarmvault",
+      "url": "https://github.com/swarmclawai/swarmvault",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "PengZhang64/ash-agents",
+      "url": "https://github.com/PengZhang64/ash-agents",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "jonwiggins/optio",
+      "url": "https://github.com/jonwiggins/optio",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "ZaxbyHub/opencode-swarm",
+      "url": "https://github.com/ZaxbyHub/opencode-swarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "SJTUwbl/MaCA",
+      "url": "https://github.com/SJTUwbl/MaCA",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "qwerty35/swarm_simulator",
+      "url": "https://github.com/qwerty35/swarm_simulator",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "TinyAGI/fractals",
+      "url": "https://github.com/TinyAGI/fractals",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "ask-the-hive/the-hive",
+      "url": "https://github.com/ask-the-hive/the-hive",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "swarmauri/swarmauri-sdk",
+      "url": "https://github.com/swarmauri/swarmauri-sdk",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "aiksa2090/Agentic-Swarm",
+      "url": "https://github.com/aiksa2090/Agentic-Swarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "jenkinsci/docker-swarm-plugin",
+      "url": "https://github.com/jenkinsci/docker-swarm-plugin",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "glitch-rabin/swarma",
+      "url": "https://github.com/glitch-rabin/swarma",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "ruvnet/marketing",
+      "url": "https://github.com/ruvnet/marketing",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "am-will/swarms",
+      "url": "https://github.com/am-will/swarms",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "penberg/swarm",
+      "url": "https://github.com/penberg/swarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "sentientwave/automata",
+      "url": "https://github.com/sentientwave/automata",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "The-Swarm-Corporation/ClawSwarm",
+      "url": "https://github.com/The-Swarm-Corporation/ClawSwarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "Div-Infinity/InternetOfAgents",
+      "url": "https://github.com/Div-Infinity/InternetOfAgents",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "grll/mcpadapt",
+      "url": "https://github.com/grll/mcpadapt",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "The-Swarm-Corporation/AutoHedge",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "wjgoarxiv/antigravity-swarm",
+      "url": "https://github.com/wjgoarxiv/antigravity-swarm",
+      "source_query": "agent swarm",
+      "archived": false
+    },
+    {
+      "full_name": "agentscope-ai/AgentTeams",
+      "url": "https://github.com/agentscope-ai/AgentTeams",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "777genius/agent-teams-ai",
+      "url": "https://github.com/777genius/agent-teams-ai",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "PurpleAILAB/Decepticon",
+      "url": "https://github.com/PurpleAILAB/Decepticon",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "Gentleman-Programming/agent-teams-lite",
+      "url": "https://github.com/Gentleman-Programming/agent-teams-lite",
+      "source_query": "agent team",
+      "archived": true
+    },
+    {
+      "full_name": "team9ai/team9",
+      "url": "https://github.com/team9ai/team9",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "business-science/ai-data-science-team",
+      "url": "https://github.com/business-science/ai-data-science-team",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "msoedov/agentic_security",
+      "url": "https://github.com/msoedov/agentic_security",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "OfficeDev/microsoft-365-agents-toolkit",
+      "url": "https://github.com/OfficeDev/microsoft-365-agents-toolkit",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "bradygaster/squad",
+      "url": "https://github.com/bradygaster/squad",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "HKUDS/AgentSpace",
+      "url": "https://github.com/HKUDS/AgentSpace",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "RooCodeInc/Roo-Code",
+      "url": "https://github.com/RooCodeInc/Roo-Code",
+      "source_query": "agent team",
+      "archived": true
+    },
+    {
+      "full_name": "Agenta-AI/agenta",
+      "url": "https://github.com/Agenta-AI/agenta",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "dsclca12/agent-teams",
+      "url": "https://github.com/dsclca12/agent-teams",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "NVIDIA/NeMo-Agent-Toolkit",
+      "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "revfactory/harness",
+      "url": "https://github.com/revfactory/harness",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "snarktank/antfarm",
+      "url": "https://github.com/snarktank/antfarm",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "FunnyWolf/Viper",
+      "url": "https://github.com/FunnyWolf/Viper",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "peterfei/ai-agent-team",
+      "url": "https://github.com/peterfei/ai-agent-team",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "qualifire-dev/rogue",
+      "url": "https://github.com/qualifire-dev/rogue",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "kiwifs/kiwifs",
+      "url": "https://github.com/kiwifs/kiwifs",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "TracecatHQ/tracecat",
+      "url": "https://github.com/TracecatHQ/tracecat",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "eastlondoner/vibe-tools",
+      "url": "https://github.com/eastlondoner/vibe-tools",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "microsoft/Agents",
+      "url": "https://github.com/microsoft/Agents",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "l3vels/team-of-ai-agents",
+      "url": "https://github.com/l3vels/team-of-ai-agents",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "spacedriveapp/spacebot",
+      "url": "https://github.com/spacedriveapp/spacebot",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "Yeachan-Heo/oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "crestalnetwork/intentkit",
+      "url": "https://github.com/crestalnetwork/intentkit",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "OfficeDev/microsoft-365-agents-toolkit-samples",
+      "url": "https://github.com/OfficeDev/microsoft-365-agents-toolkit-samples",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "zts212653/clowder-ai",
+      "url": "https://github.com/zts212653/clowder-ai",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "TinyAGI/tinyagi",
+      "url": "https://github.com/TinyAGI/tinyagi",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "openai/symphony",
+      "url": "https://github.com/openai/symphony",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "confident-ai/deepteam",
+      "url": "https://github.com/confident-ai/deepteam",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "JetBrains/teamcity-docker-agent",
+      "url": "https://github.com/JetBrains/teamcity-docker-agent",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "linke-ai/hermes-agent-team",
+      "url": "https://github.com/linke-ai/hermes-agent-team",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "silverlight6/TFTMuZeroAgent",
+      "url": "https://github.com/silverlight6/TFTMuZeroAgent",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "OpenBMB/RepoAgent",
+      "url": "https://github.com/OpenBMB/RepoAgent",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "mainframecomputer/orchestra",
+      "url": "https://github.com/mainframecomputer/orchestra",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "bybren-llc/safe-agentic-workflow",
+      "url": "https://github.com/bybren-llc/safe-agentic-workflow",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "preset-io/agor",
+      "url": "https://github.com/preset-io/agor",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "bdfinst/agentic-dev-team",
+      "url": "https://github.com/bdfinst/agentic-dev-team",
+      "source_query": "agent team",
+      "archived": false
+    },
+    {
+      "full_name": "vercel-labs/coding-agent-template",
+      "url": "https://github.com/vercel-labs/coding-agent-template",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "showlab/Code2Video",
+      "url": "https://github.com/showlab/Code2Video",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "Dicklesworthstone/agentic_coding_flywheel_setup",
+      "url": "https://github.com/Dicklesworthstone/agentic_coding_flywheel_setup",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "huangd1999/AgentCoder",
+      "url": "https://github.com/huangd1999/AgentCoder",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "aakriti1318/multi-agent-generator",
+      "url": "https://github.com/aakriti1318/multi-agent-generator",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "Prorise-cool/Claude-Code-Multi-Agent",
+      "url": "https://github.com/Prorise-cool/Claude-Code-Multi-Agent",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "openai/multiagent-competition",
+      "url": "https://github.com/openai/multiagent-competition",
+      "source_query": "multi-agent coding",
+      "archived": true
+    },
+    {
+      "full_name": "nicobailon/pi-messenger",
+      "url": "https://github.com/nicobailon/pi-messenger",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "sisl/MADRL",
+      "url": "https://github.com/sisl/MADRL",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "trypromptly/LLMStack",
+      "url": "https://github.com/trypromptly/LLMStack",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "StreetLamb/tribe",
+      "url": "https://github.com/StreetLamb/tribe",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "shariqiqbal2810/MAAC",
+      "url": "https://github.com/shariqiqbal2810/MAAC",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "openai/maddpg",
+      "url": "https://github.com/openai/maddpg",
+      "source_query": "multi-agent coding",
+      "archived": true
+    },
+    {
+      "full_name": "TimeBreaker/MARL-papers-with-code",
+      "url": "https://github.com/TimeBreaker/MARL-papers-with-code",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "LyzrCore/lyzr-automata",
+      "url": "https://github.com/LyzrCore/lyzr-automata",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "SeemSeam/claude_codex_bridge",
+      "url": "https://github.com/SeemSeam/claude_codex_bridge",
+      "source_query": "multi-agent coding",
+      "archived": false
+    },
+    {
+      "full_name": "simple10/agents-observe",
+      "url": "https://github.com/simple10/agents-observe",
+      "source_query": "multi-agent coding",
+      "archived": false
+    }
+  ]
+}

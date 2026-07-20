@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Awesome Multi-Agent Projects</title>
+  <defs><linearGradient id="g" x1="16" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse"><stop stop-color="#4f46e5"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="#0f172a"/>
+  <path d="M37 42 64 27l27 15v31L64 89 37 73V42Z" fill="none" stroke="url(#g)" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="64" cy="27" r="9" fill="#818cf8"/><circle cx="37" cy="73" r="9" fill="#a78bfa"/><circle cx="91" cy="73" r="9" fill="#6366f1"/><circle cx="64" cy="89" r="9" fill="#c4b5fd"/>
+  <path d="M64 37v39M45 68l19-11 19 11" stroke="#e0e7ff" stroke-width="5" stroke-linecap="round"/>
+</svg>

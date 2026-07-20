@@ -1,0 +1,167 @@
+- id: frameworks-orchestration
+  group: Foundations
+  name_en: "Frameworks & Orchestration"
+  name_zh: "框架与编排"
+  description_en: "Libraries and runtimes for defining agent roles, delegation, team topology, and execution."
+  description_zh: "用于定义智能体角色、委派关系、团队拓扑与执行过程的框架和运行时。"
+  order: 1
+
+- id: communication-coordination
+  group: Foundations
+  name_en: "Communication & Coordination"
+  name_zh: "通信与协同"
+  description_en: "Protocols and coordination layers built for communication, routing, and work exchange among agents."
+  description_zh: "面向智能体之间通信、路由和任务交换的协议与协同层。"
+  order: 2
+
+- id: memory-knowledge
+  group: Foundations
+  name_en: "Memory & Knowledge"
+  name_zh: "记忆与知识"
+  description_en: "Shared memory and knowledge components explicitly designed for teams of agents."
+  description_zh: "专门服务于智能体团队的共享记忆与知识组件。"
+  order: 3
+
+- id: infrastructure-developer-tools
+  group: Foundations
+  name_en: "Infrastructure & Developer Tools"
+  name_zh: "基础设施与开发工具"
+  description_en: "Development environments, runtimes, and operational tooling for multi-agent systems."
+  description_zh: "用于多智能体系统开发、运行和运维的环境与工具。"
+  order: 4
+
+- id: evaluation-benchmarking
+  group: Foundations
+  name_en: "Evaluation & Benchmarking"
+  name_zh: "评测与基准"
+  description_en: "Benchmarks, environments, and reproducible evaluation tools for multi-agent behavior."
+  description_zh: "用于多智能体行为评估的基准、环境与可复现实验工具。"
+  order: 5
+
+- id: observability-safety-governance
+  group: Foundations
+  name_en: "Observability, Safety & Governance"
+  name_zh: "可观测性、安全与治理"
+  description_en: "Tracing, inspection, safety, and governance tools that cover multi-agent execution."
+  description_zh: "覆盖多智能体执行过程的追踪、检查、安全与治理工具。"
+  order: 6
+
+- id: coding-software-engineering
+  group: Applications
+  name_en: "Coding & Software Engineering"
+  name_zh: "编程与软件工程"
+  description_en: "Agent teams that plan, implement, review, test, or maintain software."
+  description_zh: "通过团队协作规划、实现、审查、测试或维护软件的智能体项目。"
+  order: 7
+
+- id: research-science
+  group: Applications
+  name_en: "Research & Science"
+  name_zh: "研究与科学"
+  description_en: "Multi-agent systems for literature review, hypothesis generation, experiments, and scientific workflows."
+  description_zh: "用于文献调研、假设生成、实验和科学工作流的多智能体系统。"
+  order: 8
+
+- id: finance-trading
+  group: Applications
+  name_en: "Finance & Trading"
+  name_zh: "金融与交易"
+  description_en: "Agent teams for market research, investment analysis, trading simulation, and financial decisions."
+  description_zh: "用于市场研究、投资分析、交易模拟和金融决策的智能体团队。"
+  order: 9
+
+- id: data-analytics
+  group: Applications
+  name_en: "Data & Analytics"
+  name_zh: "数据与分析"
+  description_en: "Collaborative agents for querying, interpreting, and reporting on structured or scientific data."
+  description_zh: "协作完成结构化或科学数据查询、解释与报告的智能体系统。"
+  order: 10
+
+- id: enterprise-productivity
+  group: Applications
+  name_en: "Enterprise & Productivity"
+  name_zh: "企业与生产力"
+  description_en: "Multi-agent applications for business operations, document work, and organizational automation."
+  description_zh: "用于业务运营、文档工作和组织自动化的多智能体应用。"
+  order: 11
+
+- id: browser-computer-use
+  group: Applications
+  name_en: "Browser & Computer Use"
+  name_zh: "浏览器与计算机操作"
+  description_en: "Agent teams that coordinate browsing, interface use, and computer tasks."
+  description_zh: "协同完成浏览、界面操作和计算机任务的智能体团队。"
+  order: 12
+
+- id: cybersecurity
+  group: Applications
+  name_en: "Cybersecurity"
+  name_zh: "网络安全"
+  description_en: "Multi-agent systems for defensive analysis, security testing, incident response, and cyber simulation."
+  description_zh: "用于防御分析、安全测试、事件响应和网络仿真的多智能体系统。"
+  order: 13
+
+- id: healthcare-life-sciences
+  group: Applications
+  name_en: "Healthcare & Life Sciences"
+  name_zh: "医疗与生命科学"
+  description_en: "Collaborative agents for clinical, biomedical, and healthcare-administration workflows."
+  description_zh: "用于临床、生物医学和医疗行政流程的协作式智能体。"
+  order: 14
+
+- id: education-learning
+  group: Applications
+  name_en: "Education & Learning"
+  name_zh: "教育与学习"
+  description_en: "Agent teams that teach, assess, generate learning material, or support instructional design."
+  description_zh: "用于教学、评估、学习材料生成或教学设计的智能体团队。"
+  order: 15
+
+- id: robotics-embodied-ai
+  group: Applications
+  name_en: "Robotics & Embodied AI"
+  name_zh: "机器人与具身智能"
+  description_en: "Coordination, planning, and learning systems for multiple robots or embodied agents."
+  description_zh: "面向多机器人或具身智能体的协同、规划与学习系统。"
+  order: 16
+
+- id: simulation-social-games
+  group: Applications
+  name_en: "Simulation, Social Systems & Games"
+  name_zh: "仿真、社会系统与游戏"
+  description_en: "Multi-agent environments and applications for social, economic, strategic, and game simulation."
+  description_zh: "用于社会、经济、战略和游戏仿真的多智能体环境与应用。"
+  order: 17
+
+- id: marketing-media-content
+  group: Applications
+  name_en: "Marketing, Media & Content"
+  name_zh: "营销、媒体与内容"
+  description_en: "Agent teams for campaign planning, content creation, media production, and audience work."
+  description_zh: "用于活动策划、内容创作、媒体制作和受众运营的智能体团队。"
+  order: 18
+
+- id: legal-compliance
+  group: Applications
+  name_en: "Legal & Compliance"
+  name_zh: "法律与合规"
+  description_en: "Collaborative agents for legal research, due diligence, compliance, and case analysis."
+  description_zh: "用于法律研究、尽职调查、合规和案件分析的协作式智能体。"
+  order: 19
+
+- id: customer-service-sales
+  group: Applications
+  name_en: "Customer Service & Sales"
+  name_zh: "客户服务与销售"
+  description_en: "Multi-agent applications for support routing, resolution, sales assistance, and service operations."
+  description_zh: "用于支持路由、问题解决、销售辅助和服务运营的多智能体应用。"
+  order: 20
+
+- id: general-purpose-products
+  group: Applications
+  name_en: "General-Purpose Agent Products"
+  name_zh: "通用智能体产品"
+  description_en: "Open-source products whose central experience is coordinating reusable teams of agents."
+  description_zh: "以协调可复用智能体团队为核心体验的开源产品。"
+  order: 21

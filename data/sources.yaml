@@ -1,0 +1,35 @@
+queries:
+  - multi-agent
+  - multi agent system
+  - agent orchestration
+  - agent swarm
+  - agent team
+  - multi-agent coding
+  - multi-agent research
+  - multi-agent finance
+  - multi-agent robotics
+  - multi-agent simulation
+  - multi-agent cybersecurity
+  - multi-agent healthcare
+  - multi-agent education
+  - multi-agent legal
+  - multi-agent marketing
+  - multi-agent customer service
+  - multi-agent data analysis
+  - multi-agent browser
+
+topics:
+  - multi-agent
+  - multi-agent-systems
+  - agent-orchestration
+  - agent-swarm
+  - agent-team
+  - ai-agents
+  - llm-agents
+  - agentic-ai
+  - agent-framework
+  - autonomous-agents
+
+seed_lists:
+  - https://github.com/kyegomez/awesome-multi-agent-papers
+  - https://github.com/richardblythman/awesome-multi-agent-systems

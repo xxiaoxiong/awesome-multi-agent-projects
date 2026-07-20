@@ -1,0 +1,19 @@
+---
+import data from "../generated/data.json";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const { lang = "en" } = Astro.props;
+const zh = lang === "zh";
+const counts = data.categories.map((category) => ({ category, count: data.projects.filter((project) => project.primary_category === category.id).length })).filter((item) => item.count > 0);
+---
+<BaseLayout title={zh ? "更新记录｜Awesome Multi-Agent Projects" : "Updates — Awesome Multi-Agent Projects"} description={zh ? "查看多智能体目录的每周更新和数据变化。" : "Review weekly directory updates and dataset changes."} lang={lang} canonicalPath={zh ? "/zh/updates" : "/updates"} alternatePath={zh ? "/updates" : "/zh/updates"}>
+  <section class="container-page py-14">
+    <p class="text-sm font-semibold text-indigo-600">{zh ? "更新日志" : "CHANGE LOG"}</p>
+    <h1 class="mt-2 text-4xl font-black">{zh ? "生态更新记录" : "Ecosystem updates"}</h1>
+    <article class="card mt-8">
+      <div class="flex flex-wrap items-center justify-between gap-3"><h2 class="text-2xl font-bold">2026-07-20 · v0.1.0</h2><span class="badge">{data.projects.length} {zh ? "个首版项目" : "initial projects"}</span></div>
+      <p class="prose-copy mt-4">{zh ? "完成首次全球候选发现、分类核对和双语整理；上线静态目录、搜索筛选、详情页、分类页、CI 与每周 Codex 更新流程。" : "Completed the first global candidate discovery, taxonomy review, and bilingual curation; added the static directory, search and filters, detail and category pages, CI, and the weekly Codex update workflow."}</p>
+      <h3 class="mt-6 font-bold">{zh ? "分类分布" : "Category distribution"}</h3>
+      <div class="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">{counts.map(({ category, count }) => <div class="flex justify-between rounded-lg bg-slate-50 px-3 py-2 text-sm dark:bg-slate-800"><span>{zh ? category.name_zh : category.name_en}</span><strong>{count}</strong></div>)}</div>
+    </article>
+  </section>
+</BaseLayout>

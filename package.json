@@ -1,0 +1,34 @@
+{
+  "name": "awesome-multi-agent-projects",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "discover": "node --import tsx scripts/discover-candidates.ts",
+    "normalize:candidates": "node --import tsx scripts/normalize-candidates.ts",
+    "sync:metadata": "node --import tsx scripts/sync-github-metadata.ts",
+    "validate": "node --import tsx scripts/validate-data.ts",
+    "render": "node --import tsx scripts/render-readme.ts",
+    "render:check": "node --import tsx scripts/render-readme.ts --check",
+    "export:site": "node --import tsx scripts/export-site-data.ts",
+    "report": "node --import tsx scripts/generate-update-report.ts",
+    "check:links": "node --import tsx scripts/check-links.ts",
+    "typecheck": "tsc --noEmit && ASTRO_TELEMETRY_DISABLED=1 pnpm --filter awesome-multi-agent-projects-site exec astro check",
+    "lint": "eslint .",
+    "build:site": "pnpm export:site && ASTRO_TELEMETRY_DISABLED=1 pnpm --filter awesome-multi-agent-projects-site build",
+    "check": "pnpm validate && pnpm render:check && pnpm typecheck && pnpm build:site",
+    "test": "vitest run"
+  },
+  "dependencies": { "yaml": "^2.8.1", "zod": "^4.1.5" },
+  "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@types/node": "^24.3.0",
+    "eslint": "^9.34.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.41.0",
+    "vitest": "^3.2.4"
+  }
+}

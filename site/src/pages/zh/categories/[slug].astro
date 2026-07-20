@@ -1,0 +1,7 @@
+---
+import data from "../../../generated/data.json";
+import CategoryPage from "../../../components/CategoryPage.astro";
+export function getStaticPaths() { return data.categories.map((category) => ({ params: { slug: category.id }, props: { category } })); }
+const { category } = Astro.props;
+---
+<CategoryPage category={category} lang="zh" />

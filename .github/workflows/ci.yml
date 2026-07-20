@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.7.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Validate schema and cross-record rules
+        run: pnpm validate
+      - name: Verify generated READMEs
+        run: pnpm render:check
+      - name: Type-check
+        run: pnpm typecheck
+      - name: Lint
+        run: pnpm lint
+      - name: Unit tests
+        run: pnpm test
+      - name: Build static site
+        run: pnpm build:site
+      - name: Check internal and external links
+        run: pnpm check:links
+      - name: Reject likely committed secrets
+        run: |
+          if git grep -nEI '(sk-[A-Za-z0-9_-]{20,}|ghp_[A-Za-z0-9]{20,})' -- ':!pnpm-lock.yaml'; then
+            echo "Potential secret detected"
+            exit 1
+          fi
+          if git grep -nE '^(VERCEL_TOKEN|OPENAI_API_KEY)=[A-Za-z0-9]' -- ':!pnpm-lock.yaml'; then
+            echo "Potential secret detected"
+            exit 1
+          fi

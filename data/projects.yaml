@@ -1,0 +1,2120 @@
+- id: crewai
+  name: "CrewAI"
+  repository_url: https://github.com/crewAIInc/crewAI
+  organization: "crewAIInc"
+  primary_category: frameworks-orchestration
+  tags: ["role-based", "hierarchical", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["role-based", "hierarchical"]
+  description_en: "A framework for building role-based teams of agents with explicit tasks, processes, tools, delegation, and hierarchical coordination."
+  description_zh: "通过明确的角色、任务、流程、工具和职责委派来构建协作式智能体团队的框架。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: autogen
+  name: "AutoGen"
+  repository_url: https://github.com/microsoft/autogen
+  organization: "microsoft"
+  primary_category: frameworks-orchestration
+  tags: ["conversational", "event-driven", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["conversational", "event-driven"]
+  description_en: "Microsoft's framework for conversational agents that can form teams, exchange messages, use tools, and coordinate complex workflows."
+  description_zh: "微软推出的对话式智能体框架，支持多个智能体组队、交换消息、使用工具并协同完成复杂工作流。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: camel
+  name: "CAMEL"
+  repository_url: https://github.com/camel-ai/camel
+  organization: "camel-ai"
+  primary_category: frameworks-orchestration
+  tags: ["role-playing", "research", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["role-playing", "research"]
+  description_en: "A research-oriented framework for communicative agents, role-playing societies, task decomposition, and scalable multi-agent experiments."
+  description_zh: "面向通信式智能体、角色扮演社会、任务拆解和规模化多智能体实验的研究型框架。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agentscope
+  name: "AgentScope"
+  repository_url: https://github.com/agentscope-ai/agentscope
+  organization: "agentscope-ai"
+  primary_category: frameworks-orchestration
+  tags: ["message-driven", "evaluation", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["message-driven", "evaluation"]
+  description_en: "A developer platform for building, running, and evaluating message-driven multi-agent applications with explicit agent roles."
+  description_zh: "用于构建、运行和评估消息驱动型多智能体应用的开发平台，支持清晰的角色划分。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agentverse
+  name: "AgentVerse"
+  repository_url: https://github.com/OpenBMB/AgentVerse
+  organization: "OpenBMB"
+  primary_category: frameworks-orchestration
+  tags: ["simulation", "task-solving", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["simulation", "task-solving"]
+  description_en: "A framework for deploying multiple LLM agents in task-solving teams and simulation environments with configurable collaboration structures."
+  description_zh: "用于在任务求解团队和仿真环境中部署多个大模型智能体，并配置协作结构的框架。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: langroid
+  name: "Langroid"
+  repository_url: https://github.com/langroid/langroid
+  organization: "langroid"
+  primary_category: frameworks-orchestration
+  tags: ["message-passing", "lightweight", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["message-passing", "lightweight"]
+  description_en: "A lightweight framework that organizes LLM applications as communicating agents with tools, tasks, and explicit message passing."
+  description_zh: "将大模型应用组织为可通信智能体的轻量框架，支持工具、任务和显式消息传递。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agent-framework
+  name: "Microsoft Agent Framework"
+  repository_url: https://github.com/microsoft/agent-framework
+  organization: "microsoft"
+  primary_category: frameworks-orchestration
+  tags: ["workflows", "handoffs", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["workflows", "handoffs"]
+  description_en: "An open-source SDK and runtime for composing agents, workflows, handoffs, and team patterns across model providers."
+  description_zh: "用于跨模型提供商组合智能体、工作流、交接和团队模式的开源 SDK 与运行时。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: openai-agents-python
+  name: "OpenAI Agents SDK for Python"
+  repository_url: https://github.com/openai/openai-agents-python
+  organization: "openai"
+  primary_category: frameworks-orchestration
+  tags: ["handoffs", "tracing", "python"]
+  project_type: framework
+  coordination_pattern: ["handoffs", "tracing"]
+  description_en: "A Python SDK for agentic applications with handoffs, agents-as-tools, guardrails, tracing, and multi-agent orchestration patterns."
+  description_zh: "面向智能体应用的 Python SDK，支持交接、智能体工具化、护栏、追踪和多智能体编排模式。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: openai-agents-js
+  name: "OpenAI Agents SDK for JavaScript"
+  repository_url: https://github.com/openai/openai-agents-js
+  organization: "openai"
+  primary_category: frameworks-orchestration
+  tags: ["handoffs", "typescript", "tracing"]
+  project_type: framework
+  coordination_pattern: ["handoffs", "typescript"]
+  description_en: "A JavaScript and TypeScript SDK for composing agents, handoffs, tools, guardrails, and coordinated execution."
+  description_zh: "用于组合智能体、交接、工具、护栏和协同执行的 JavaScript 与 TypeScript SDK。"
+  primary_language: "TypeScript"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: openai-swarm
+  name: "Swarm"
+  repository_url: https://github.com/openai/swarm
+  organization: "openai"
+  primary_category: frameworks-orchestration
+  tags: ["handoffs", "educational"]
+  project_type: framework
+  coordination_pattern: ["handoffs", "educational"]
+  description_en: "An educational framework exploring lightweight routines and handoffs between independently configured agents."
+  description_zh: "用于探索独立配置智能体之间轻量例程和交接机制的教育型框架。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: inactive
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agency-swarm
+  name: "Agency Swarm"
+  repository_url: https://github.com/VRSEN/agency-swarm
+  organization: "VRSEN"
+  primary_category: frameworks-orchestration
+  tags: ["role-based", "handoffs", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["role-based", "handoffs"]
+  description_en: "A framework for creating structured agencies of specialized agents that communicate, delegate, and collaborate through shared tools."
+  description_zh: "用于创建结构化智能体组织的框架，多个专业智能体可通过共享工具进行通信、委派和协作。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: swarms
+  name: "Swarms"
+  repository_url: https://github.com/kyegomez/swarms
+  organization: "kyegomez"
+  primary_category: frameworks-orchestration
+  tags: ["swarm", "hierarchical", "concurrent"]
+  project_type: framework
+  coordination_pattern: ["swarm", "hierarchical"]
+  description_en: "A framework offering reusable swarm topologies, hierarchical coordination, concurrent execution, and production-oriented agent orchestration."
+  description_zh: "提供可复用群体拓扑、分层协作、并发执行和工程化智能体编排能力的框架。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agentuniverse
+  name: "agentUniverse"
+  repository_url: https://github.com/agentuniverse-ai/agentUniverse
+  organization: "agentuniverse-ai"
+  primary_category: frameworks-orchestration
+  tags: ["enterprise", "patterns", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["enterprise", "patterns"]
+  description_en: "An enterprise-oriented multi-agent framework with collaboration patterns, domain components, and configurable agent teams."
+  description_zh: "面向企业场景的多智能体框架，提供协作模式、领域组件和可配置智能体团队。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agno
+  name: "Agno"
+  repository_url: https://github.com/agno-agi/agno
+  organization: "agno-agi"
+  primary_category: frameworks-orchestration
+  tags: ["teams", "memory", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["teams", "memory"]
+  description_en: "A framework and runtime for building model-agnostic agents and teams with tools, memory, knowledge, and coordinated workflows."
+  description_zh: "用于构建模型无关智能体和团队的框架与运行时，整合工具、记忆、知识和协同工作流。"
+  primary_language: "Python"
+  license: "MPL-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: langgraph
+  name: "LangGraph"
+  repository_url: https://github.com/langchain-ai/langgraph
+  organization: "langchain-ai"
+  primary_category: frameworks-orchestration
+  tags: ["graph", "durable", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["graph", "durable"]
+  description_en: "A graph runtime for durable agent workflows that supports supervisor, swarm, handoff, and parallel multi-agent patterns."
+  description_zh: "面向持久化智能体工作流的图运行时，支持主管、群体、交接和并行等多智能体模式。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: langgraph-swarm
+  name: "LangGraph Swarm"
+  repository_url: https://github.com/langchain-ai/langgraph-swarm-py
+  organization: "langchain-ai"
+  primary_category: frameworks-orchestration
+  tags: ["swarm", "handoffs", "state"]
+  project_type: framework
+  coordination_pattern: ["swarm", "handoffs"]
+  description_en: "A LangGraph library for building swarm-style teams whose agents transfer control while sharing conversational state."
+  description_zh: "基于 LangGraph 构建群体式智能体团队的库，智能体可在共享对话状态下转移控制权。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: dapr-agents
+  name: "Dapr Agents"
+  repository_url: https://github.com/dapr/dapr-agents
+  organization: "dapr"
+  primary_category: frameworks-orchestration
+  tags: ["distributed", "durable", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["distributed", "durable"]
+  description_en: "A resilient agent framework built on Dapr primitives for workflows, messaging, state, observability, and multi-agent coordination."
+  description_zh: "基于 Dapr 原语构建的弹性智能体框架，覆盖工作流、消息、状态、可观测性和多智能体协同。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: botsharp
+  name: "BotSharp"
+  repository_url: https://github.com/SciSharp/BotSharp
+  organization: "SciSharp"
+  primary_category: frameworks-orchestration
+  tags: ["dotnet", "plugins", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["dotnet", "plugins"]
+  description_en: "A modular .NET agent platform with routing, planning, plugins, and multi-agent conversation capabilities."
+  description_zh: "模块化 .NET 智能体平台，提供路由、规划、插件和多智能体会话能力。"
+  primary_language: "C#"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: open-multi-agent
+  name: "Open Multi-Agent"
+  repository_url: https://github.com/open-multi-agent/open-multi-agent
+  organization: "open-multi-agent"
+  primary_category: frameworks-orchestration
+  tags: ["platform", "teams", "self-hosted"]
+  project_type: framework
+  coordination_pattern: ["platform", "teams"]
+  description_en: "An open-source platform for configuring, coordinating, and operating reusable teams of AI agents."
+  description_zh: "用于配置、协调和运行可复用 AI 智能体团队的开源平台。"
+  primary_language: "TypeScript"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: roma
+  name: "ROMA"
+  repository_url: https://github.com/sentient-agi/ROMA
+  organization: "sentient-agi"
+  primary_category: frameworks-orchestration
+  tags: ["recursive", "hierarchical", "task-graph"]
+  project_type: framework
+  coordination_pattern: ["recursive", "hierarchical"]
+  description_en: "A recursive multi-agent framework that decomposes complex goals into hierarchical tasks and coordinates specialized workers."
+  description_zh: "通过递归方式把复杂目标拆成分层任务，并协调专业工作智能体的多智能体框架。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: solace-agent-mesh
+  name: "Solace Agent Mesh"
+  repository_url: https://github.com/SolaceLabs/solace-agent-mesh
+  organization: "SolaceLabs"
+  primary_category: communication-coordination
+  tags: ["event-driven", "mesh", "distributed"]
+  project_type: infrastructure
+  coordination_pattern: ["event-driven", "mesh"]
+  description_en: "An event-driven mesh for discovering agents, routing tasks, exchanging results, and coordinating distributed agent workflows."
+  description_zh: "用于智能体发现、任务路由、结果交换和分布式协同的事件驱动网格。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: a2a
+  name: "A2A Protocol"
+  repository_url: https://github.com/a2aproject/A2A
+  organization: "a2aproject"
+  primary_category: communication-coordination
+  tags: ["protocol", "interoperability", "a2a"]
+  project_type: infrastructure
+  coordination_pattern: ["protocol", "interoperability"]
+  description_en: "An open protocol and reference implementation for interoperable communication and task exchange between independently built agents."
+  description_zh: "用于不同开发体系智能体之间互操作通信和任务交换的开放协议及参考实现。"
+  primary_language: "TypeScript"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multi-agent-reference-architecture
+  name: "Multi-Agent Reference Architecture"
+  repository_url: https://github.com/microsoft/multi-agent-reference-architecture
+  organization: "microsoft"
+  primary_category: communication-coordination
+  tags: ["reference", "messaging", "architecture"]
+  project_type: infrastructure
+  coordination_pattern: ["reference", "messaging"]
+  description_en: "A reference implementation demonstrating agent discovery, messaging, orchestration, identity, and operational concerns in a multi-agent system."
+  description_zh: "展示多智能体系统中智能体发现、消息、编排、身份和运维问题的参考实现。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: semantic-workbench
+  name: "Semantic Workbench"
+  repository_url: https://github.com/microsoft/semanticworkbench
+  organization: "microsoft"
+  primary_category: infrastructure-developer-tools
+  tags: ["development", "experiments", "self-hosted"]
+  project_type: platform
+  coordination_pattern: ["development", "experiments"]
+  description_en: "A development environment for prototyping, observing, and testing conversational agents and multi-agent experiences."
+  description_zh: "用于原型开发、观察和测试对话式智能体及多智能体体验的开发环境。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: sim
+  name: "Sim"
+  repository_url: https://github.com/simstudioai/sim
+  organization: "simstudioai"
+  primary_category: infrastructure-developer-tools
+  tags: ["visual-builder", "workflows", "self-hosted"]
+  project_type: platform
+  coordination_pattern: ["visual-builder", "workflows"]
+  description_en: "A visual open-source platform for composing and running agent workflows, including coordinated multi-agent systems."
+  description_zh: "用于可视化组合和运行智能体工作流的开源平台，支持协同式多智能体系统。"
+  primary_language: "TypeScript"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multi-agent-observability
+  name: "Claude Code Multi-Agent Observability"
+  repository_url: https://github.com/disler/claude-code-hooks-multi-agent-observability
+  organization: "disler"
+  primary_category: infrastructure-developer-tools
+  tags: ["claude-code", "realtime", "observability"]
+  project_type: platform
+  coordination_pattern: ["claude-code", "realtime"]
+  description_en: "A real-time observability interface for inspecting parallel Claude Code agents, events, tool calls, and coordination activity."
+  description_zh: "用于实时检查并行 Claude Code 智能体、事件、工具调用和协同行为的可观测界面。"
+  primary_language: "TypeScript"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: benchmarl
+  name: "BenchMARL"
+  repository_url: https://github.com/facebookresearch/BenchMARL
+  organization: "facebookresearch"
+  primary_category: evaluation-benchmarking
+  tags: ["marl", "benchmark", "pytorch"]
+  project_type: benchmark
+  coordination_pattern: ["marl", "benchmark"]
+  description_en: "A standardized library for benchmarking multi-agent reinforcement learning algorithms across environments and reproducible experiment configurations."
+  description_zh: "用于在不同环境和可复现实验配置中标准化评测多智能体强化学习算法的库。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: pettingzoo
+  name: "PettingZoo"
+  repository_url: https://github.com/Farama-Foundation/PettingZoo
+  organization: "Farama-Foundation"
+  primary_category: evaluation-benchmarking
+  tags: ["marl", "environments", "api"]
+  project_type: benchmark
+  coordination_pattern: ["marl", "environments"]
+  description_en: "A standard API and maintained collection of environments for research and evaluation in multi-agent reinforcement learning."
+  description_zh: "为多智能体强化学习研究和评估提供标准 API 与持续维护环境集合。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: smac
+  name: "SMAC"
+  repository_url: https://github.com/oxwhirl/smac
+  organization: "oxwhirl"
+  primary_category: evaluation-benchmarking
+  tags: ["marl", "cooperative", "starcraft"]
+  project_type: benchmark
+  coordination_pattern: ["marl", "cooperative"]
+  description_en: "The StarCraft Multi-Agent Challenge environment for evaluating cooperative multi-agent reinforcement learning methods."
+  description_zh: "用于评估协作式多智能体强化学习方法的星际争霸多智能体挑战环境。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: inactive
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: pymarl
+  name: "PyMARL"
+  repository_url: https://github.com/oxwhirl/pymarl
+  organization: "oxwhirl"
+  primary_category: evaluation-benchmarking
+  tags: ["marl", "research", "cooperative"]
+  project_type: benchmark
+  coordination_pattern: ["marl", "research"]
+  description_en: "A research framework for cooperative multi-agent reinforcement learning algorithms and experiments built around SMAC."
+  description_zh: "围绕 SMAC 构建的协作式多智能体强化学习算法与实验研究框架。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: inactive
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: melting-pot
+  name: "Melting Pot"
+  repository_url: https://github.com/google-deepmind/meltingpot
+  organization: "google-deepmind"
+  primary_category: evaluation-benchmarking
+  tags: ["marl", "social", "generalization"]
+  project_type: benchmark
+  coordination_pattern: ["marl", "social"]
+  description_en: "A suite of social multi-agent reinforcement learning scenarios for evaluating cooperation, competition, and generalization."
+  description_zh: "用于评估合作、竞争和泛化能力的社会型多智能体强化学习场景套件。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: vmas
+  name: "VMAS"
+  repository_url: https://github.com/proroklab/VectorizedMultiAgentSimulator
+  organization: "proroklab"
+  primary_category: evaluation-benchmarking
+  tags: ["marl", "simulation", "robotics"]
+  project_type: benchmark
+  coordination_pattern: ["marl", "simulation"]
+  description_en: "A vectorized differentiable simulator providing fast multi-robot scenarios for multi-agent reinforcement learning research."
+  description_zh: "面向多智能体强化学习研究的向量化可微仿真器，提供高效多机器人场景。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multi-agent-transformer
+  name: "Multi-Agent Transformer"
+  repository_url: https://github.com/PKU-MARL/Multi-Agent-Transformer
+  organization: "PKU-MARL"
+  primary_category: evaluation-benchmarking
+  tags: ["marl", "transformer", "research"]
+  project_type: benchmark
+  coordination_pattern: ["marl", "transformer"]
+  description_en: "The official research implementation of a transformer-based architecture for cooperative multi-agent reinforcement learning."
+  description_zh: "基于 Transformer 的协作式多智能体强化学习架构官方研究实现。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: inactive
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multiagent-particle-envs
+  name: "Multi-Agent Particle Environments"
+  repository_url: https://github.com/openai/multiagent-particle-envs
+  organization: "openai"
+  primary_category: evaluation-benchmarking
+  tags: ["marl", "environments", "historical"]
+  project_type: benchmark
+  coordination_pattern: ["marl", "environments"]
+  description_en: "A historical set of lightweight particle environments for cooperative and competitive multi-agent reinforcement learning."
+  description_zh: "用于协作与竞争式多智能体强化学习的经典轻量粒子环境集合。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: archived
+  region: global
+  github:
+    archived: true
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agentops
+  name: "AgentOps"
+  repository_url: https://github.com/AgentOps-AI/agentops
+  organization: "AgentOps-AI"
+  primary_category: observability-safety-governance
+  tags: ["tracing", "evaluation", "observability"]
+  project_type: infrastructure
+  coordination_pattern: ["tracing", "evaluation"]
+  description_en: "An observability and evaluation toolkit for tracing agent sessions, including runs composed of multiple collaborating agents."
+  description_zh: "用于追踪智能体会话的可观测与评估工具，能够覆盖由多个协作智能体组成的运行过程。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: ragaai-catalyst
+  name: "RagaAI Catalyst"
+  repository_url: https://github.com/raga-ai-hub/RagaAI-Catalyst
+  organization: "raga-ai-hub"
+  primary_category: observability-safety-governance
+  tags: ["testing", "tracing", "evaluation"]
+  project_type: infrastructure
+  coordination_pattern: ["testing", "tracing"]
+  description_en: "An open-source testing and observability platform for evaluating agentic systems, including multi-agent traces and failures."
+  description_zh: "用于评估智能体系统的开源测试与可观测平台，覆盖多智能体轨迹和故障分析。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: langfuse
+  name: "Langfuse"
+  repository_url: https://github.com/langfuse/langfuse
+  organization: "langfuse"
+  primary_category: observability-safety-governance
+  tags: ["tracing", "evaluation", "self-hosted"]
+  project_type: infrastructure
+  coordination_pattern: ["tracing", "evaluation"]
+  description_en: "An open-source LLM engineering platform whose tracing and evaluation model can inspect nested, multi-agent executions."
+  description_zh: "开源大模型工程平台，可通过追踪与评估模型检查嵌套的多智能体执行过程。"
+  primary_language: "TypeScript"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: metagpt
+  name: "MetaGPT"
+  repository_url: https://github.com/FoundationAgents/MetaGPT
+  organization: "FoundationAgents"
+  primary_category: coding-software-engineering
+  tags: ["software-company", "role-based", "self-hosted"]
+  project_type: application
+  coordination_pattern: ["software-company", "role-based"]
+  description_en: "A software-company simulation that assigns product, architecture, engineering, and review roles to collaborating agents."
+  description_zh: "模拟软件公司的多智能体项目，把产品、架构、开发和审查职责分配给不同协作智能体。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: chatdev
+  name: "ChatDev"
+  repository_url: https://github.com/OpenBMB/ChatDev
+  organization: "OpenBMB"
+  primary_category: coding-software-engineering
+  tags: ["software-company", "role-based", "self-hosted"]
+  project_type: application
+  coordination_pattern: ["software-company", "role-based"]
+  description_en: "A virtual software company where agents in specialized roles communicate through structured phases to produce software."
+  description_zh: "虚拟软件公司式多智能体应用，专业角色通过结构化阶段沟通并共同产出软件。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: oh-my-claudecode
+  name: "Oh My Claude Code"
+  repository_url: https://github.com/Yeachan-Heo/oh-my-claudecode
+  organization: "Yeachan-Heo"
+  primary_category: coding-software-engineering
+  tags: ["claude-code", "parallel", "orchestration"]
+  project_type: application
+  coordination_pattern: ["claude-code", "parallel"]
+  description_en: "A Claude Code orchestration layer that coordinates specialized agents, task routing, and parallel software work."
+  description_zh: "面向 Claude Code 的编排层，通过专业智能体、任务路由和并行执行协同完成软件工作。"
+  primary_language: "TypeScript"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: korea
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: gastown
+  name: "Gas Town"
+  repository_url: https://github.com/gastownhall/gastown
+  organization: "gastownhall"
+  primary_category: coding-software-engineering
+  tags: ["coding-agents", "task-management", "parallel"]
+  project_type: application
+  coordination_pattern: ["coding-agents", "task-management"]
+  description_en: "A workspace and task orchestration system for coordinating multiple coding agents across persistent software projects."
+  description_zh: "用于在持久化软件项目中协调多个编程智能体的工作区与任务编排系统。"
+  primary_language: "Go"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: clawteam
+  name: "ClawTeam"
+  repository_url: https://github.com/HKUDS/ClawTeam
+  organization: "HKUDS"
+  primary_category: coding-software-engineering
+  tags: ["coding-agents", "team", "self-hosted"]
+  project_type: application
+  coordination_pattern: ["coding-agents", "team"]
+  description_en: "A team-oriented coding system that organizes autonomous agents around shared software tasks and collaborative execution."
+  description_zh: "围绕共享软件任务组织自治智能体，并开展团队式协同执行的编程系统。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: experimental
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multi-agent-coding-system
+  name: "Multi-Agent Coding System"
+  repository_url: https://github.com/Danau5tin/multi-agent-coding-system
+  organization: "Danau5tin"
+  primary_category: coding-software-engineering
+  tags: ["planning", "review", "testing"]
+  project_type: application
+  coordination_pattern: ["planning", "review"]
+  description_en: "A coding workflow that separates planning, implementation, review, and testing across cooperating specialized agents."
+  description_zh: "把规划、实现、审查和测试职责拆给多个专业智能体协作完成的编程工作流。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: claude-flow
+  name: "Claude Flow"
+  repository_url: https://github.com/ruvnet/claude-flow
+  organization: "ruvnet"
+  primary_category: coding-software-engineering
+  tags: ["claude-code", "swarm", "memory"]
+  project_type: application
+  coordination_pattern: ["claude-code", "swarm"]
+  description_en: "An orchestration layer for coordinating Claude-based agent swarms, shared memory, task graphs, and coding workflows."
+  description_zh: "用于协调 Claude 智能体群体、共享记忆、任务图和编程工作流的编排层。"
+  primary_language: "TypeScript"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agents-collection
+  name: "Claude Code Agents"
+  repository_url: https://github.com/wshobson/agents
+  organization: "wshobson"
+  primary_category: coding-software-engineering
+  tags: ["claude-code", "specialists", "workflows"]
+  project_type: application
+  coordination_pattern: ["claude-code", "specialists"]
+  description_en: "A collection and orchestration approach for specialized Claude Code agents that collaborate on engineering workflows."
+  description_zh: "面向专业 Claude Code 智能体的集合与编排方案，支持在工程工作流中协作。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: robin
+  name: "Robin"
+  repository_url: https://github.com/Future-House/robin
+  organization: "Future-House"
+  primary_category: research-science
+  tags: ["science", "literature", "research"]
+  project_type: application
+  coordination_pattern: ["science", "literature"]
+  description_en: "An open scientific research system that coordinates specialized agents for literature search, analysis, and research synthesis."
+  description_zh: "协调专业智能体完成文献检索、分析和研究综合的开放科学研究系统。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: deer-flow
+  name: "DeerFlow"
+  repository_url: https://github.com/bytedance/deer-flow
+  organization: "bytedance"
+  primary_category: research-science
+  tags: ["deep-research", "reports", "self-hosted"]
+  project_type: application
+  coordination_pattern: ["deep-research", "reports"]
+  description_en: "A community-driven deep research framework that coordinates planning, retrieval, reasoning, and report-generation agents."
+  description_zh: "社区驱动的深度研究框架，协调规划、检索、推理和报告生成智能体完成研究任务。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: deep-research-agent
+  name: "DeepResearchAgent"
+  repository_url: https://github.com/SkyworkAI/DeepResearchAgent
+  organization: "SkyworkAI"
+  primary_category: research-science
+  tags: ["deep-research", "browsing", "reports"]
+  project_type: application
+  coordination_pattern: ["deep-research", "browsing"]
+  description_en: "A deep-research agent system that decomposes investigations and coordinates browsing, reasoning, and synthesis components."
+  description_zh: "通过拆解调研任务并协调浏览、推理和综合组件完成深度研究的智能体系统。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: denario
+  name: "Denario"
+  repository_url: https://github.com/AstroPilot-AI/Denario
+  organization: "AstroPilot-AI"
+  primary_category: research-science
+  tags: ["science", "paper-writing", "experiments"]
+  project_type: application
+  coordination_pattern: ["science", "paper-writing"]
+  description_en: "A multi-agent scientific platform for idea generation, literature review, experiment planning, and paper drafting."
+  description_zh: "用于科研创意生成、文献综述、实验规划和论文撰写的多智能体科学平台。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: paper2agent
+  name: "Paper2Agent"
+  repository_url: https://github.com/jmiao24/Paper2Agent
+  organization: "jmiao24"
+  primary_category: research-science
+  tags: ["papers", "tool-use", "research"]
+  project_type: application
+  coordination_pattern: ["papers", "tool-use"]
+  description_en: "A system that converts research papers into interactive agent teams capable of using the paper's methods and tools."
+  description_zh: "把研究论文转化为可交互智能体团队，使其能够使用论文方法与工具的系统。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: cmbagent
+  name: "CMBAgent"
+  repository_url: https://github.com/CMBAgents/cmbagent
+  organization: "CMBAgents"
+  primary_category: research-science
+  tags: ["science", "cosmology", "validation"]
+  project_type: application
+  coordination_pattern: ["science", "cosmology"]
+  description_en: "A multi-agent research system for cosmology that coordinates scientific reasoning, coding, retrieval, and validation."
+  description_zh: "面向宇宙学研究的多智能体系统，协同完成科学推理、编码、检索和验证。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: waragent
+  name: "WarAgent"
+  repository_url: https://github.com/agiresearch/WarAgent
+  organization: "agiresearch"
+  primary_category: research-science
+  tags: ["simulation", "history", "research"]
+  project_type: application
+  coordination_pattern: ["simulation", "history"]
+  description_en: "A research implementation using multiple LLM agents to simulate historical decision-making and international conflict dynamics."
+  description_zh: "使用多个大模型智能体模拟历史决策和国际冲突动态的研究实现。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: tradingagents
+  name: "TradingAgents"
+  repository_url: https://github.com/TauricResearch/TradingAgents
+  organization: "TauricResearch"
+  primary_category: finance-trading
+  tags: ["trading", "debate", "research"]
+  project_type: application
+  coordination_pattern: ["trading", "debate"]
+  description_en: "A trading research framework in which analyst, researcher, trader, risk, and portfolio agents debate investment decisions."
+  description_zh: "由分析、研究、交易、风控和组合管理智能体协作辩论投资决策的交易研究框架。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: finrobot
+  name: "FinRobot"
+  repository_url: https://github.com/AI4Finance-Foundation/FinRobot
+  organization: "AI4Finance-Foundation"
+  primary_category: finance-trading
+  tags: ["finance", "research", "reports"]
+  project_type: application
+  coordination_pattern: ["finance", "research"]
+  description_en: "An open financial agent platform with specialized roles for market research, document analysis, forecasting, and reporting."
+  description_zh: "开放金融智能体平台，通过专业角色完成市场研究、文档分析、预测和报告。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: tradingagents-cn
+  name: "TradingAgents-CN"
+  repository_url: https://github.com/hsliuping/TradingAgents-CN
+  organization: "hsliuping"
+  primary_category: finance-trading
+  tags: ["a-shares", "trading", "research"]
+  project_type: application
+  coordination_pattern: ["a-shares", "trading"]
+  description_en: "A Chinese-market adaptation of TradingAgents with localized data sources and collaborative investment-research roles."
+  description_zh: "针对中国市场适配的 TradingAgents，实现本地化数据源和协作式投资研究角色。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: contesttrade
+  name: "ContestTrade"
+  repository_url: https://github.com/FinStep-AI/ContestTrade
+  organization: "FinStep-AI"
+  primary_category: finance-trading
+  tags: ["trading", "competition", "research"]
+  project_type: application
+  coordination_pattern: ["trading", "competition"]
+  description_en: "A multi-agent trading research platform that compares and coordinates investment strategies in a competitive setting."
+  description_zh: "在竞争式环境中比较并协调多种投资策略的多智能体交易研究平台。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: valuecell
+  name: "ValueCell"
+  repository_url: https://github.com/ValueCell-ai/valuecell
+  organization: "ValueCell-ai"
+  primary_category: finance-trading
+  tags: ["finance", "analysis", "research"]
+  project_type: application
+  coordination_pattern: ["finance", "analysis"]
+  description_en: "An agentic financial research system that organizes specialized analysts around investment questions and evidence."
+  description_zh: "围绕投资问题与证据组织专业分析智能体协作的金融研究系统。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: experimental
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: maro
+  name: "MARO"
+  repository_url: https://github.com/microsoft/maro
+  organization: "microsoft"
+  primary_category: finance-trading
+  tags: ["optimization", "logistics", "marl"]
+  project_type: application
+  coordination_pattern: ["optimization", "logistics"]
+  description_en: "A multi-agent resource optimization platform with environments for logistics, inventory, and operational decision research."
+  description_zh: "面向物流、库存和运营决策研究的多智能体资源优化平台。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: inactive
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multi-agent-postgres
+  name: "Multi-Agent PostgreSQL Data Analytics"
+  repository_url: https://github.com/disler/multi-agent-postgres-data-analytics
+  organization: "disler"
+  primary_category: data-analytics
+  tags: ["postgresql", "analytics", "reports"]
+  project_type: application
+  coordination_pattern: ["postgresql", "analytics"]
+  description_en: "A practical analytics system where specialized agents inspect schemas, write queries, validate results, and synthesize reports."
+  description_zh: "由专业智能体协作检查模式、编写查询、验证结果并形成报告的实用分析系统。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: databuff
+  name: "DataBuff"
+  repository_url: https://github.com/databufflabs/databuff
+  organization: "databufflabs"
+  primary_category: data-analytics
+  tags: ["analytics", "visualization", "self-hosted"]
+  project_type: application
+  coordination_pattern: ["analytics", "visualization"]
+  description_en: "An open-source data analysis workspace that coordinates agents for exploration, transformation, visualization, and explanation."
+  description_zh: "开源数据分析工作区，协调智能体完成探索、转换、可视化和解释。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: datagen
+  name: "DATAGEN"
+  repository_url: https://github.com/starpig1129/DATAGEN
+  organization: "starpig1129"
+  primary_category: data-analytics
+  tags: ["data-generation", "analysis", "workflow"]
+  project_type: application
+  coordination_pattern: ["data-generation", "analysis"]
+  description_en: "A multi-agent data generation and analysis project that assigns specialized roles across a structured workflow."
+  description_zh: "在结构化流程中分配专业角色完成数据生成和分析的多智能体项目。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: tyche
+  name: "Tyche"
+  repository_url: https://github.com/microsoft/Tyche
+  organization: "microsoft"
+  primary_category: data-analytics
+  tags: ["analysis", "reasoning", "research"]
+  project_type: application
+  coordination_pattern: ["analysis", "reasoning"]
+  description_en: "A research system using coordinated agents for structured data analysis, reasoning, and evidence-backed conclusions."
+  description_zh: "使用协同智能体开展结构化数据分析、推理和证据化结论生成的研究系统。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: custom-automation-engine
+  name: "Multi-Agent Custom Automation Engine"
+  repository_url: https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator
+  organization: "microsoft"
+  primary_category: enterprise-productivity
+  tags: ["enterprise", "automation", "azure"]
+  project_type: application
+  coordination_pattern: ["enterprise", "automation"]
+  description_en: "A solution accelerator for building configurable enterprise automations from multiple specialized and orchestrated agents."
+  description_zh: "用于通过多个专业化、可编排智能体构建企业自定义自动化的解决方案加速器。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multi-agent-ppt
+  name: "MultiAgentPPT"
+  repository_url: https://github.com/johnson7788/MultiAgentPPT
+  organization: "johnson7788"
+  primary_category: enterprise-productivity
+  tags: ["presentations", "content", "productivity"]
+  project_type: application
+  coordination_pattern: ["presentations", "content"]
+  description_en: "A presentation generation system that distributes research, outline, writing, and visual tasks among collaborating agents."
+  description_zh: "把调研、大纲、写作和视觉任务分配给多个协作智能体的演示文稿生成系统。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: content-generation-accelerator
+  name: "Content Generation Solution Accelerator"
+  repository_url: https://github.com/microsoft/content-generation-solution-accelerator
+  organization: "microsoft"
+  primary_category: enterprise-productivity
+  tags: ["content", "enterprise", "review"]
+  project_type: application
+  coordination_pattern: ["content", "enterprise"]
+  description_en: "An enterprise content workflow that coordinates specialized agents for planning, generation, review, and refinement."
+  description_zh: "协调专业智能体完成内容规划、生成、审查和优化的企业内容工作流。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: owl
+  name: "OWL"
+  repository_url: https://github.com/camel-ai/owl
+  organization: "camel-ai"
+  primary_category: browser-computer-use
+  tags: ["browser", "tool-use", "research"]
+  project_type: application
+  coordination_pattern: ["browser", "tool-use"]
+  description_en: "A multi-agent framework for real-world tasks that coordinates planning, browser interaction, tool use, and information synthesis."
+  description_zh: "协调规划、浏览器交互、工具使用和信息综合来完成现实任务的多智能体框架。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: nanobrowser
+  name: "Nanobrowser"
+  repository_url: https://github.com/nanobrowser/nanobrowser
+  organization: "nanobrowser"
+  primary_category: browser-computer-use
+  tags: ["browser", "extension", "self-hosted"]
+  project_type: application
+  coordination_pattern: ["browser", "extension"]
+  description_en: "An open-source browser automation product that can coordinate specialized agents for web tasks from a local extension."
+  description_zh: "通过本地扩展协调专业智能体执行网页任务的开源浏览器自动化产品。"
+  primary_language: "TypeScript"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: browser-operator-core
+  name: "Browser Operator Core"
+  repository_url: https://github.com/BrowserOperator/browser-operator-core
+  organization: "BrowserOperator"
+  primary_category: browser-computer-use
+  tags: ["browser", "automation", "tool-use"]
+  project_type: application
+  coordination_pattern: ["browser", "automation"]
+  description_en: "A browser operation core designed to coordinate multiple agent roles across web navigation and task execution."
+  description_zh: "用于在网页导航和任务执行中协调多个智能体角色的浏览器操作核心。"
+  primary_language: "TypeScript"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: shannon
+  name: "Shannon"
+  repository_url: https://github.com/Kocoro-lab/Shannon
+  organization: "Kocoro-lab"
+  primary_category: cybersecurity
+  tags: ["pentesting", "security", "self-hosted"]
+  project_type: application
+  coordination_pattern: ["pentesting", "security"]
+  description_en: "An autonomous penetration-testing system that coordinates reconnaissance, exploitation, verification, and reporting agents."
+  description_zh: "协调侦察、利用、验证和报告智能体开展自动化渗透测试的系统。"
+  primary_language: "Python"
+  license: "AGPL-3.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: pentest-swarm-ai
+  name: "Pentest Swarm AI"
+  repository_url: https://github.com/Armur-Ai/Pentest-Swarm-AI
+  organization: "Armur-Ai"
+  primary_category: cybersecurity
+  tags: ["pentesting", "swarm", "security"]
+  project_type: application
+  coordination_pattern: ["pentesting", "swarm"]
+  description_en: "A security testing swarm that assigns reconnaissance, vulnerability analysis, exploitation, and reporting to specialized agents."
+  description_zh: "把侦察、漏洞分析、利用和报告分配给专业智能体的安全测试群体系统。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: experimental
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: bugtraceai
+  name: "BugTraceAI"
+  repository_url: https://github.com/BugTraceAI/BugTraceAI-CLI
+  organization: "BugTraceAI"
+  primary_category: cybersecurity
+  tags: ["security", "code-analysis", "cli"]
+  project_type: application
+  coordination_pattern: ["security", "code-analysis"]
+  description_en: "A command-line security analysis system that coordinates multiple agents to investigate code and application vulnerabilities."
+  description_zh: "通过多个智能体协作调查代码与应用漏洞的命令行安全分析系统。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: experimental
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: cage-challenge
+  name: "CAGE Challenge 4"
+  repository_url: https://github.com/cage-challenge/cage-challenge-4
+  organization: "cage-challenge"
+  primary_category: cybersecurity
+  tags: ["cyber-defense", "marl", "benchmark"]
+  project_type: application
+  coordination_pattern: ["cyber-defense", "marl"]
+  description_en: "A cyber-defense research environment for training and evaluating teams of agents in adversarial network scenarios."
+  description_zh: "用于在对抗性网络场景中训练和评估智能体团队的网络防御研究环境。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: prior-authorization
+  name: "Prior Authorization Multi-Agent Solution Accelerator"
+  repository_url: https://github.com/microsoft/Prior-Authorization-Multi-Agent-Solution-Accelerator
+  organization: "microsoft"
+  primary_category: healthcare-life-sciences
+  tags: ["healthcare", "documents", "enterprise"]
+  project_type: application
+  coordination_pattern: ["healthcare", "documents"]
+  description_en: "A healthcare workflow accelerator coordinating agents for document intake, policy checks, clinical review, and authorization support."
+  description_zh: "协调智能体完成文档接收、政策核验、临床审查和授权辅助的医疗工作流加速器。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multi-agent-medical-assistant
+  name: "Multi-Agent Medical Assistant"
+  repository_url: https://github.com/souvikmajumder26/Multi-Agent-Medical-Assistant
+  organization: "souvikmajumder26"
+  primary_category: healthcare-life-sciences
+  tags: ["medical", "review", "assistant"]
+  project_type: application
+  coordination_pattern: ["medical", "review"]
+  description_en: "A medical assistance system that divides symptom analysis, specialist perspectives, and response review among agents."
+  description_zh: "把症状分析、专科意见和回答复核分配给多个智能体的医疗辅助系统。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: experimental
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: radiology-swarm
+  name: "Radiology Swarm"
+  repository_url: https://github.com/The-Swarm-Corporation/radiology-swarm
+  organization: "The-Swarm-Corporation"
+  primary_category: healthcare-life-sciences
+  tags: ["radiology", "swarm", "research"]
+  project_type: application
+  coordination_pattern: ["radiology", "swarm"]
+  description_en: "A research-oriented agent swarm for coordinating radiology analysis roles and structured clinical reporting."
+  description_zh: "用于协调放射学分析角色和结构化临床报告的研究型智能体群体。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: experimental
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: instructional-agents
+  name: "Instructional Agents"
+  repository_url: https://github.com/DaRL-GenAI/instructional_agents
+  organization: "DaRL-GenAI"
+  primary_category: education-learning
+  tags: ["education", "teaching", "research"]
+  project_type: application
+  coordination_pattern: ["education", "teaching"]
+  description_en: "A research project where multiple instructional agents collaborate on teaching strategies, feedback, and learner support."
+  description_zh: "多个教学智能体围绕教学策略、反馈和学习支持开展协作的研究项目。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: code2video
+  name: "Code2Video"
+  repository_url: https://github.com/showlab/Code2Video
+  organization: "showlab"
+  primary_category: education-learning
+  tags: ["education", "video", "content"]
+  project_type: application
+  coordination_pattern: ["education", "video"]
+  description_en: "A multi-agent system that coordinates script, code, narration, and rendering roles to produce educational videos."
+  description_zh: "协调脚本、代码、讲解和渲染角色生成教学视频的多智能体系统。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: multi-agent-path-planning
+  name: "Multi-Agent Path Planning"
+  repository_url: https://github.com/atb033/multi_agent_path_planning
+  organization: "atb033"
+  primary_category: robotics-embodied-ai
+  tags: ["robotics", "path-planning", "coordination"]
+  project_type: research
+  coordination_pattern: ["robotics", "path-planning"]
+  description_en: "A collection of centralized and decentralized planning methods for multiple robots navigating shared environments."
+  description_zh: "多机器人在共享环境中导航的集中式与分布式路径规划方法集合。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: lib-multi-robot-planning
+  name: "libMultiRobotPlanning"
+  repository_url: https://github.com/whoenig/libMultiRobotPlanning
+  organization: "whoenig"
+  primary_category: robotics-embodied-ai
+  tags: ["robotics", "path-planning", "cpp"]
+  project_type: research
+  coordination_pattern: ["robotics", "path-planning"]
+  description_en: "A C++ library implementing search-based algorithms for multi-robot path planning and coordinated motion."
+  description_zh: "实现多机器人路径规划和协同运动搜索算法的 C++ 库。"
+  primary_language: "C++"
+  license: "BSD-3-Clause"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: ego-planner-swarm
+  name: "EGO-Planner-Swarm"
+  repository_url: https://github.com/ZJU-FAST-Lab/ego-planner-swarm
+  organization: "ZJU-FAST-Lab"
+  primary_category: robotics-embodied-ai
+  tags: ["drones", "swarm", "planning"]
+  project_type: research
+  coordination_pattern: ["drones", "swarm"]
+  description_en: "A decentralized trajectory planner for coordinating autonomous drone swarms in cluttered environments."
+  description_zh: "用于在复杂环境中协调自主无人机群体的分布式轨迹规划器。"
+  primary_language: "C++"
+  license: "GPL-3.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: scrimmage
+  name: "SCRIMMAGE"
+  repository_url: https://github.com/gtri/scrimmage
+  organization: "gtri"
+  primary_category: robotics-embodied-ai
+  tags: ["robotics", "simulation", "autonomy"]
+  project_type: research
+  coordination_pattern: ["robotics", "simulation"]
+  description_en: "A modular simulation environment for developing and testing heterogeneous teams of autonomous vehicles."
+  description_zh: "用于开发和测试异构自主载具团队的模块化仿真环境。"
+  primary_language: "C++"
+  license: "BSD-3-Clause"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: robotic-warehouse
+  name: "Robotic Warehouse"
+  repository_url: https://github.com/semitable/robotic-warehouse
+  organization: "semitable"
+  primary_category: robotics-embodied-ai
+  tags: ["warehouse", "marl", "environment"]
+  project_type: research
+  coordination_pattern: ["warehouse", "marl"]
+  description_en: "A multi-robot warehouse environment for studying cooperative task allocation and reinforcement learning."
+  description_zh: "用于研究协作式任务分配和强化学习的多机器人仓库环境。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: gym-pybullet-drones
+  name: "Gym PyBullet Drones"
+  repository_url: https://github.com/utiasDSL/gym-pybullet-drones
+  organization: "utiasDSL"
+  primary_category: robotics-embodied-ai
+  tags: ["drones", "marl", "simulation"]
+  project_type: research
+  coordination_pattern: ["drones", "marl"]
+  description_en: "A PyBullet environment for single and multi-agent reinforcement learning with quadrotor teams."
+  description_zh: "面向四旋翼团队单智能体与多智能体强化学习的 PyBullet 环境。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: smart-llm
+  name: "SMART-LLM"
+  repository_url: https://github.com/SMARTlab-Purdue/SMART-LLM
+  organization: "SMARTlab-Purdue"
+  primary_category: robotics-embodied-ai
+  tags: ["embodied-ai", "planning", "robot-teams"]
+  project_type: research
+  coordination_pattern: ["embodied-ai", "planning"]
+  description_en: "A multi-agent embodied planning framework that assigns robot skills and decomposes household tasks for robot teams."
+  description_zh: "为机器人团队分配技能并拆解家庭任务的多智能体具身规划框架。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: fkie-multi-agent-suite
+  name: "FKIE Multi-Agent Suite"
+  repository_url: https://github.com/fkie/fkie-multi-agent-suite
+  organization: "fkie"
+  primary_category: robotics-embodied-ai
+  tags: ["ros", "robotics", "distributed"]
+  project_type: research
+  coordination_pattern: ["ros", "robotics"]
+  description_en: "A ROS-based suite for operating and coordinating distributed multi-robot systems."
+  description_zh: "用于运行和协调分布式多机器人系统的 ROS 工具套件。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: gcbfplus
+  name: "GCBF+"
+  repository_url: https://github.com/MIT-REALM/gcbfplus
+  organization: "MIT-REALM"
+  primary_category: robotics-embodied-ai
+  tags: ["safety", "control", "robotics"]
+  project_type: research
+  coordination_pattern: ["safety", "control"]
+  description_en: "A graph control barrier function framework for safe coordination and control of multi-agent robotic systems."
+  description_zh: "使用图控制障碍函数实现多智能体机器人系统安全协同与控制的框架。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: openmas
+  name: "OpenMAS"
+  repository_url: https://github.com/douthwja01/OpenMAS
+  organization: "douthwja01"
+  primary_category: robotics-embodied-ai
+  tags: ["control", "simulation", "robotics"]
+  project_type: research
+  coordination_pattern: ["control", "simulation"]
+  description_en: "An open framework for modeling, simulating, and controlling networked multi-agent systems."
+  description_zh: "用于建模、仿真和控制网络化多智能体系统的开放框架。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: concordia
+  name: "Concordia"
+  repository_url: https://github.com/google-deepmind/concordia
+  organization: "google-deepmind"
+  primary_category: simulation-social-games
+  tags: ["social-simulation", "generative", "research"]
+  project_type: research
+  coordination_pattern: ["social-simulation", "generative"]
+  description_en: "A library for building generative social simulations in which language-model agents interact within structured worlds."
+  description_zh: "用于构建生成式社会仿真的库，大模型智能体可在结构化世界中互动。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: digital-ecosystem
+  name: "Digital Ecosystem"
+  repository_url: https://github.com/SakanaAI/digital-ecosystem
+  organization: "SakanaAI"
+  primary_category: simulation-social-games
+  tags: ["simulation", "emergence", "research"]
+  project_type: research
+  coordination_pattern: ["simulation", "emergence"]
+  description_en: "A research environment for studying populations of interacting agents, cultural evolution, and emergent collective behavior."
+  description_zh: "用于研究智能体群体互动、文化演化和涌现集体行为的研究环境。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: experimental
+  region: japan
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: negmas
+  name: "NegMAS"
+  repository_url: https://github.com/yasserfarouk/negmas
+  organization: "yasserfarouk"
+  primary_category: simulation-social-games
+  tags: ["negotiation", "simulation", "protocols"]
+  project_type: research
+  coordination_pattern: ["negotiation", "simulation"]
+  description_en: "A framework for automated negotiation among autonomous agents, including protocols, mechanisms, tournaments, and simulation."
+  description_zh: "面向自治智能体自动协商的框架，涵盖协议、机制、竞赛和仿真。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: madkit
+  name: "MaDKit"
+  repository_url: https://github.com/fmichel/MaDKit
+  organization: "fmichel"
+  primary_category: simulation-social-games
+  tags: ["simulation", "java", "organizations"]
+  project_type: research
+  coordination_pattern: ["simulation", "java"]
+  description_en: "A long-running Java platform for organization-centered multi-agent systems and simulation."
+  description_zh: "一个长期维护的 Java 平台，用于以组织为中心的多智能体系统和仿真。"
+  primary_language: "Java"
+  license: "GPL-3.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: matsim
+  name: "MATSim"
+  repository_url: https://github.com/matsim-org/matsim-libs
+  organization: "matsim-org"
+  primary_category: simulation-social-games
+  tags: ["transport", "simulation", "agent-based"]
+  project_type: research
+  coordination_pattern: ["transport", "simulation"]
+  description_en: "A large-scale agent-based transport simulation framework modeling individual travelers and system-level interactions."
+  description_zh: "用于模拟个体出行者和系统级互动的大规模基于智能体的交通仿真框架。"
+  primary_language: "Java"
+  license: "GPL-2.0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: massim
+  name: "MASSim"
+  repository_url: https://github.com/agentcontest/massim_2020
+  organization: "agentcontest"
+  primary_category: simulation-social-games
+  tags: ["competition", "simulation", "historical"]
+  project_type: research
+  coordination_pattern: ["competition", "simulation"]
+  description_en: "The 2020 Multi-Agent Systems Contest server and scenario implementation for coordinated team competition."
+  description_zh: "2020 多智能体系统竞赛的服务器和场景实现，用于团队协同对抗。"
+  primary_language: "Java"
+  license: "GPL-3.0"
+  self_hosted: true
+  status: archived
+  region: global
+  github:
+    archived: true
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: openocta
+  name: "OpenOcta"
+  repository_url: https://github.com/openocta/openocta
+  organization: "openocta"
+  primary_category: marketing-media-content
+  tags: ["marketing", "content", "self-hosted"]
+  project_type: application
+  coordination_pattern: ["marketing", "content"]
+  description_en: "An open-source marketing workspace that coordinates specialized agents across research, strategy, content, and campaigns."
+  description_zh: "协调专业智能体完成调研、策略、内容和营销活动的开源营销工作区。"
+  primary_language: "TypeScript"
+  license: "AGPL-3.0"
+  self_hosted: true
+  status: experimental
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: opencmo
+  name: "OpenCMO"
+  repository_url: https://github.com/study8677/OpenCMO
+  organization: "study8677"
+  primary_category: marketing-media-content
+  tags: ["marketing", "strategy", "content"]
+  project_type: application
+  coordination_pattern: ["marketing", "strategy"]
+  description_en: "A multi-agent marketing application that assigns planning, analysis, content, and growth responsibilities to specialist roles."
+  description_zh: "把规划、分析、内容和增长职责分配给专业角色的多智能体营销应用。"
+  primary_language: "TypeScript"
+  license: "MIT"
+  self_hosted: true
+  status: experimental
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: due-diligence-agents
+  name: "Due Diligence Agents"
+  repository_url: https://github.com/zoharbabin/due-diligence-agents
+  organization: "zoharbabin"
+  primary_category: legal-compliance
+  tags: ["due-diligence", "research", "compliance"]
+  project_type: application
+  coordination_pattern: ["due-diligence", "research"]
+  description_en: "A collaborative agent workflow for collecting evidence, reviewing risks, and preparing structured due-diligence findings."
+  description_zh: "协作收集证据、审查风险并形成结构化尽职调查结论的智能体工作流。"
+  primary_language: "Python"
+  license: "MIT"
+  self_hosted: true
+  status: experimental
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: maser
+  name: "MASER"
+  repository_url: https://github.com/FudanDISC/MASER
+  organization: "FudanDISC"
+  primary_category: legal-compliance
+  tags: ["reasoning", "evidence", "research"]
+  project_type: application
+  coordination_pattern: ["reasoning", "evidence"]
+  description_en: "A research implementation exploring multi-agent reasoning and evidence synthesis for complex domain questions."
+  description_zh: "探索多智能体推理和证据综合以处理复杂领域问题的研究实现。"
+  primary_language: "Python"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: active
+  region: china
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: bedrock-customer-service
+  name: "Multi-Agent Customer Service for Amazon Bedrock"
+  repository_url: https://github.com/aws-samples/sample-multi-agent-customer-service-for-bedrock
+  organization: "aws-samples"
+  primary_category: customer-service-sales
+  tags: ["customer-service", "routing", "aws"]
+  project_type: application
+  coordination_pattern: ["customer-service", "routing"]
+  description_en: "A reference application that routes customer requests among specialized service agents using Amazon Bedrock."
+  description_zh: "使用 Amazon Bedrock 在多个专业服务智能体之间路由客户请求的参考应用。"
+  primary_language: "Python"
+  license: "MIT-0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: agent-squad-guidance
+  name: "Agent Squad Multi-Agent Orchestration Guidance"
+  repository_url: https://github.com/aws-solutions-library-samples/guidance-for-multi-agent-orchestration-agent-squad-on-aws
+  organization: "aws-solutions-library-samples"
+  primary_category: customer-service-sales
+  tags: ["customer-service", "orchestration", "aws"]
+  project_type: application
+  coordination_pattern: ["customer-service", "orchestration"]
+  description_en: "AWS guidance and code for orchestrating specialized agents in support and service workflows."
+  description_zh: "用于在支持和服务流程中编排专业智能体的 AWS 指南与代码实现。"
+  primary_language: "TypeScript"
+  license: "MIT-0"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: eliza
+  name: "Eliza"
+  repository_url: https://github.com/elizaOS/eliza
+  organization: "elizaOS"
+  primary_category: general-purpose-products
+  tags: ["platform", "social", "self-hosted"]
+  project_type: product
+  coordination_pattern: ["platform", "social"]
+  description_en: "An open-source platform for operating autonomous agents and coordinated multi-agent experiences across communication channels."
+  description_zh: "用于跨通信渠道运行自治智能体和协同式多智能体体验的开源平台。"
+  primary_language: "TypeScript"
+  license: "MIT"
+  self_hosted: true
+  status: active
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
+
+- id: hive
+  name: "Hive"
+  repository_url: https://github.com/aden-hive/hive
+  organization: "aden-hive"
+  primary_category: general-purpose-products
+  tags: ["teams", "tasks", "self-hosted"]
+  project_type: product
+  coordination_pattern: ["teams", "tasks"]
+  description_en: "A general-purpose product for organizing multiple agents around persistent tasks, shared context, and team execution."
+  description_zh: "围绕持久任务、共享上下文和团队执行组织多个智能体的通用产品。"
+  primary_language: "TypeScript"
+  license: "Apache-2.0"
+  self_hosted: true
+  status: experimental
+  region: global
+  github:
+    archived: false
+  added_at: 2026-07-20
+  last_reviewed_at: 2026-07-20
+  source: initial-research
