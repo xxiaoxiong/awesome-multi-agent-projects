@@ -28,7 +28,7 @@ Last updated: 2026-07-20
 - [x] Build bilingual Astro directory
 - [x] Add documentation, contribution files, CI, and weekly Codex workflow
 - [x] Install dependencies and run validation, tests, lint, typecheck, render check, and site build
-- [ ] Commit and push to GitHub
+- [x] Commit and publish to GitHub main (remote commit `487d293222dedf4e0830815f13e86bf7e9b5f748`)
 - [ ] Deploy to Vercel if credentials are available
 - [ ] Backfill production URL and repository metadata when deployment succeeds
 

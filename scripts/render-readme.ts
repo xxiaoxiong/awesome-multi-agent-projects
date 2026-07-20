@@ -4,6 +4,7 @@ import { loadData, ROOT, type Category, type Project } from "./lib/data.js";
 
 const { projects, categories, site } = await loadData();
 const isCheck = process.argv.includes("--check");
+const deploymentPending = site.url.endsWith(".invalid");
 
 function projectLine(project: Project, language: "en" | "zh"): string {
   const description = language === "en" ? project.description_en : project.description_zh;
@@ -27,13 +28,18 @@ function render(language: "en" | "zh"): string {
   const latest = [...projects].sort((a, b) => String(b.added_at).localeCompare(String(a.added_at))).slice(0, 8);
   const domainLinks = categories
     .filter((category) => projects.some((project) => project.primary_category === category.id))
-    .map((category) => `[${zh ? category.name_zh : category.name_en}](${site.url}/${zh ? "zh/" : ""}categories/${category.id})`)
+    .map((category) => deploymentPending
+      ? `**${zh ? category.name_zh : category.name_en}**`
+      : `[${zh ? category.name_zh : category.name_en}](${site.url}/${zh ? "zh/" : ""}categories/${category.id})`)
     .join(" · ");
   const foundations = categories.filter((category) => category.group === "Foundations").map((category) => section(category, language)).filter(Boolean).join("\n\n");
   const applications = categories.filter((category) => category.group === "Applications").map((category) => section(category, language)).filter(Boolean).join("\n\n");
   const intro = zh
     ? "这是一个按实际应用领域组织、以质量和清晰边界为优先的开源多智能体项目目录。结构化数据同时生成中英文 README 与静态网站，避免多份清单漂移。"
     : "A quality-first directory of open-source multi-agent systems organized by what they actually build. One structured dataset generates both READMEs and the static website, preventing duplicated lists from drifting.";
+  const websiteLinks = deploymentPending
+    ? `[${zh ? "网站部署待授权" : "Website deployment pending"}](docs/DEPLOYMENT.md) · [${zh ? "提交项目" : "Submit a Project"}](${site.repository}/issues/new?template=project-submission.yml)`
+    : `[${zh ? "浏览网站" : "Explore Website"}](${site.url}) · [${zh ? "浏览项目" : "Browse Projects"}](${site.url}/${zh ? "zh/" : ""}projects) · [${zh ? "提交项目" : "Submit a Project"}](${site.repository}/issues/new?template=project-submission.yml)`;
 
   return `<p align="center"><img src="assets/banner.svg" alt="Awesome Multi-Agent Projects" width="100%" /></p>
 
@@ -45,7 +51,7 @@ function render(language: "en" | "zh"): string {
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-[${zh ? "浏览网站" : "Explore Website"}](${site.url}) · [${zh ? "浏览项目" : "Browse Projects"}](${site.url}/${zh ? "zh/" : ""}projects) · [${zh ? "提交项目" : "Submit a Project"}](${site.repository}/issues/new?template=project-submission.yml)
+${websiteLinks}
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Project Count](https://img.shields.io/badge/projects-${projects.length}-4f46e5) ![Categories](https://img.shields.io/badge/categories-${categories.length}-7c3aed) [![CI](${site.repository}/actions/workflows/ci.yml/badge.svg)](${site.repository}/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/license-CC0--1.0-0f766e.svg)](LICENSE) ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
