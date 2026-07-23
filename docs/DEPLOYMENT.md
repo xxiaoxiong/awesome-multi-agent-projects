@@ -2,6 +2,8 @@
 
 The site is a static Astro build deployed from the repository root.
 
+Production: <https://awesome-multi-agent-projects-site.vercel.app>
+
 ## Vercel settings
 
 - Root Directory: `.`

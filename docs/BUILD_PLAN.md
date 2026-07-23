@@ -1,6 +1,6 @@
 # Build Plan
 
-Last updated: 2026-07-20
+Last updated: 2026-07-23
 
 ## Repository state
 
@@ -29,8 +29,8 @@ Last updated: 2026-07-20
 - [x] Add documentation, contribution files, CI, and weekly Codex workflow
 - [x] Install dependencies and run validation, tests, lint, typecheck, render check, and site build
 - [x] Commit and publish to GitHub main (remote commit `487d293222dedf4e0830815f13e86bf7e9b5f748`)
-- [ ] Deploy to Vercel if credentials are available
-- [ ] Backfill production URL and repository metadata when deployment succeeds
+- [x] Deploy the static site to Vercel
+- [x] Backfill the verified production URL and repository metadata
 
 ## Test results
 
@@ -45,4 +45,4 @@ Last updated: 2026-07-20
 
 ## External deployment state
 
-The environment does not provide `VERCEL_TOKEN`; Vercel CLI is not preinstalled. The repository uses the explicit placeholder origin `https://deployment-pending.invalid` until a real production alias is obtained and verified. No deployment success is assumed. `OPENAI_API_KEY` is also absent locally, so the weekly workflow is complete but its repository secret must be configured by the owner.
+The production site is deployed at <https://awesome-multi-agent-projects-site.vercel.app>. The Vercel project is connected to the `main` branch and deploys from the repository root using `vercel.json`. The production alias and key English/Chinese routes were verified on 2026-07-23. `OPENAI_API_KEY` remains absent locally, so the weekly workflow is complete but its repository secret must be configured by the owner.

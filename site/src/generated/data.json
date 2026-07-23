@@ -3227,7 +3227,7 @@
     "subtitle_zh": "面向全球开源社区、按实际应用领域整理的多智能体系统、框架、产品与真实应用双语入口。",
     "tagline_en": "Discover what multi-agent systems are actually building.",
     "tagline_zh": "从实际应用领域出发，发现多智能体正在真正构建什么。",
-    "url": "https://deployment-pending.invalid",
+    "url": "https://awesome-multi-agent-projects-site.vercel.app",
     "repository": "https://github.com/xxiaoxiong/awesome-multi-agent-projects",
     "last_updated": "2026-07-20"
   },

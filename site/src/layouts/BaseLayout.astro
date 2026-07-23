@@ -9,7 +9,7 @@ interface Props {
   alternatePath?: string;
 }
 const { title, description, lang = "en", canonicalPath = Astro.url.pathname, alternatePath } = Astro.props;
-const base = "https://deployment-pending.invalid";
+const base = "https://awesome-multi-agent-projects-site.vercel.app";
 const canonical = new URL(canonicalPath, base);
 const alternate = alternatePath ? new URL(alternatePath, base) : null;
 const zh = lang === "zh";

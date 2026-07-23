@@ -8,7 +8,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-[网站部署待授权](docs/DEPLOYMENT.md) · [提交项目](https://github.com/xxiaoxiong/awesome-multi-agent-projects/issues/new?template=project-submission.yml)
+[浏览网站](https://awesome-multi-agent-projects-site.vercel.app) · [浏览项目](https://awesome-multi-agent-projects-site.vercel.app/zh/projects) · [提交项目](https://github.com/xxiaoxiong/awesome-multi-agent-projects/issues/new?template=project-submission.yml)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Project Count](https://img.shields.io/badge/projects-101-4f46e5) ![Categories](https://img.shields.io/badge/categories-21-7c3aed) [![CI](https://github.com/xxiaoxiong/awesome-multi-agent-projects/actions/workflows/ci.yml/badge.svg)](https://github.com/xxiaoxiong/awesome-multi-agent-projects/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/license-CC0--1.0-0f766e.svg)](LICENSE) ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
@@ -42,7 +42,7 @@
 
 ## 按领域探索
 
-**框架与编排** · **通信与协同** · **基础设施与开发工具** · **评测与基准** · **可观测性、安全与治理** · **编程与软件工程** · **研究与科学** · **金融与交易** · **数据与分析** · **企业与生产力** · **浏览器与计算机操作** · **网络安全** · **医疗与生命科学** · **教育与学习** · **机器人与具身智能** · **仿真、社会系统与游戏** · **营销、媒体与内容** · **法律与合规** · **客户服务与销售** · **通用智能体产品**
+[框架与编排](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/frameworks-orchestration) · [通信与协同](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/communication-coordination) · [基础设施与开发工具](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/infrastructure-developer-tools) · [评测与基准](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/evaluation-benchmarking) · [可观测性、安全与治理](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/observability-safety-governance) · [编程与软件工程](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/coding-software-engineering) · [研究与科学](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/research-science) · [金融与交易](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/finance-trading) · [数据与分析](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/data-analytics) · [企业与生产力](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/enterprise-productivity) · [浏览器与计算机操作](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/browser-computer-use) · [网络安全](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/cybersecurity) · [医疗与生命科学](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/healthcare-life-sciences) · [教育与学习](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/education-learning) · [机器人与具身智能](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/robotics-embodied-ai) · [仿真、社会系统与游戏](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/simulation-social-games) · [营销、媒体与内容](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/marketing-media-content) · [法律与合规](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/legal-compliance) · [客户服务与销售](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/customer-service-sales) · [通用智能体产品](https://awesome-multi-agent-projects-site.vercel.app/zh/categories/general-purpose-products)
 
 <!-- AUTO-GENERATED:PROJECTS:START -->
 
