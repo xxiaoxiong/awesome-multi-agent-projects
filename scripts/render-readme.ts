@@ -35,8 +35,8 @@ function render(language: "en" | "zh"): string {
   const foundations = categories.filter((category) => category.group === "Foundations").map((category) => section(category, language)).filter(Boolean).join("\n\n");
   const applications = categories.filter((category) => category.group === "Applications").map((category) => section(category, language)).filter(Boolean).join("\n\n");
   const intro = zh
-    ? "这是一个按实际应用领域组织、以质量和清晰边界为优先的开源多智能体项目目录。结构化数据同时生成中英文 README 与静态网站，避免多份清单漂移。"
-    : "A quality-first directory of open-source multi-agent systems organized by what they actually build. One structured dataset generates both READMEs and the static website, preventing duplicated lists from drifting.";
+    ? "这是一个按实际应用领域组织、以质量和清晰边界为优先的开源多智能体项目目录。结构化数据同时生成中英文 README 与静态网站，避免多份清单漂移。现在每个项目都提供站内中英文研究页，集中展示项目定位、协作模式、典型场景、工程权衡、采用清单与审核依据。"
+    : "A quality-first directory of open-source multi-agent systems organized by what they actually build. One structured dataset generates both READMEs and the static website, preventing duplicated lists from drifting. Every project now has an internal bilingual research page covering its positioning, coordination model, representative use cases, engineering trade-offs, adoption checklist, and review basis.";
   const websiteLinks = deploymentPending
     ? `[${zh ? "网站部署待授权" : "Website deployment pending"}](docs/DEPLOYMENT.md) · [${zh ? "提交项目" : "Submit a Project"}](${site.repository}/issues/new?template=project-submission.yml)`
     : `[${zh ? "浏览网站" : "Explore Website"}](${site.url}) · [${zh ? "浏览项目" : "Browse Projects"}](${site.url}/${zh ? "zh/" : ""}projects) · [${zh ? "提交项目" : "Submit a Project"}](${site.repository}/issues/new?template=project-submission.yml)`;
