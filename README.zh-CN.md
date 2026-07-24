@@ -12,7 +12,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Project Count](https://img.shields.io/badge/projects-101-4f46e5) ![Categories](https://img.shields.io/badge/categories-21-7c3aed) [![CI](https://github.com/xxiaoxiong/awesome-multi-agent-projects/actions/workflows/ci.yml/badge.svg)](https://github.com/xxiaoxiong/awesome-multi-agent-projects/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/license-CC0--1.0-0f766e.svg)](LICENSE) ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
-这是一个按实际应用领域组织、以质量和清晰边界为优先的开源多智能体项目目录。结构化数据同时生成中英文 README 与静态网站，避免多份清单漂移。
+这是一个按实际应用领域组织、以质量和清晰边界为优先的开源多智能体项目目录。结构化数据同时生成中英文 README 与静态网站，避免多份清单漂移。现在每个项目都提供站内中英文研究页，集中展示项目定位、协作模式、典型场景、工程权衡、采用清单与审核依据。
 
 ## 最近收录
 

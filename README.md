@@ -12,7 +12,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Project Count](https://img.shields.io/badge/projects-101-4f46e5) ![Categories](https://img.shields.io/badge/categories-21-7c3aed) [![CI](https://github.com/xxiaoxiong/awesome-multi-agent-projects/actions/workflows/ci.yml/badge.svg)](https://github.com/xxiaoxiong/awesome-multi-agent-projects/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/license-CC0--1.0-0f766e.svg)](LICENSE) ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
-A quality-first directory of open-source multi-agent systems organized by what they actually build. One structured dataset generates both READMEs and the static website, preventing duplicated lists from drifting.
+A quality-first directory of open-source multi-agent systems organized by what they actually build. One structured dataset generates both READMEs and the static website, preventing duplicated lists from drifting. Every project now has an internal bilingual research page covering its positioning, coordination model, representative use cases, engineering trade-offs, adoption checklist, and review basis.
 
 ## Latest Additions
 

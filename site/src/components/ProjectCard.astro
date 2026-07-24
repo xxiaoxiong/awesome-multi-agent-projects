@@ -18,9 +18,12 @@ const zh = lang === "zh";
     {project.license && <span>{project.license}</span>}
     {project.self_hosted && <span>{zh ? "可自托管" : "Self-hosted"}</span>}
     {project.github.stars !== undefined && <span class="inline-flex items-center gap-1"><Star size={13} />{project.github.stars.toLocaleString()}</span>}
-    <span class="ml-auto flex gap-2">
-      <a href={project.repository_url} aria-label={`${project.name} GitHub`}><Github size={16} /></a>
-      {project.homepage_url && <a href={project.homepage_url} aria-label={`${project.name} website`}><ExternalLink size={16} /></a>}
+  </div>
+  <div class="mt-4 flex items-center justify-between gap-3">
+    <a class="inline-flex items-center rounded-lg bg-indigo-50 px-3 py-2 text-xs font-bold text-indigo-700 hover:bg-indigo-100 dark:bg-indigo-950 dark:text-indigo-300 dark:hover:bg-indigo-900" href={`${zh ? "/zh" : ""}/projects/${project.id}`}>{zh ? "查看站内研究" : "View research"}</a>
+    <span class="flex gap-3 text-slate-400">
+      <a class="hover:text-slate-700 dark:hover:text-slate-200" href={project.repository_url} aria-label={`${project.name} GitHub`}><Github size={16} /></a>
+      {project.homepage_url && <a class="hover:text-slate-700 dark:hover:text-slate-200" href={project.homepage_url} aria-label={`${project.name} website`}><ExternalLink size={16} /></a>}
     </span>
   </div>
 </article>
